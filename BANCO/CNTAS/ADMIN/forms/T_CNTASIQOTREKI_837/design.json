@@ -124,6 +124,8 @@
 							"query": {
 								"$ref": "../../../../CNTAS/ADMIN/queries/Q_CUENETNT_QR74.json#"
 							},
+							"queryId": "Q_CUENETNT_QR74",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
 							"queryViewId": "QV_TB74_MAY78",
@@ -553,6 +555,8 @@
 							"query": {
 								"$ref": "../../../../CNTAS/ADMIN/queries/Q_CUENTAAT_QZ46.json#"
 							},
+							"queryId": "Q_CUENTAAT_QZ46",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
 							"queryViewId": "QV_CO46_QLG43",
