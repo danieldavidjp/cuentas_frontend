@@ -3,13 +3,8 @@
 		"CompositeForms": {
 		},
 		"Forms": {
-<<<<<<< HEAD
-			"T_CNTASBNGJLVBS_124": {
-				"name": "formDeposito"
-=======
 			"T_CNTASADQLTLAP_450": {
 				"name": "formNuevaCuenta"
->>>>>>> 592f18b17badb318f608524c0de3d469351f1fc1
 			}
 		},
 		"Queries": {
@@ -20,9 +15,6 @@
 	"Entities": {
 		"EN_CLIENTEIX_920": {
 			"name": "Cliente"
-		},
-		"EN_CUENTALZB_486": {
-			"name": "Cuenta"
 		}
 	}
 }
