@@ -31,14 +31,14 @@
 		}
 	},
 	"Entities": {
-		"EN_1RYFYHYJA_254": {
-			"name": "Entity1"
-		},
 		"EN_CLIENTEIX_920": {
 			"name": "Cliente"
 		},
 		"EN_CUENTARZM_852": {
 			"name": "Cuenta"
+		},
+		"EN_FILTROCEI_982": {
+			"name": "FiltroCliente"
 		}
 	}
 }

@@ -1,0 +1,21 @@
+{
+	"CNTAS": [
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTEIX_920",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI5772_bli_buscar_cliente",
+			"nameBli": "BLI_buscar_cliente"
+		}
+	]
+}

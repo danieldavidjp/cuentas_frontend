@@ -33,6 +33,23 @@
 			"columnsNum": 1,
 			"componentStyle": null,
 			"customEvents": [
+				{
+					"customEventId": "CEVC_002T_CNTASADQLTLAP_450_178",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+					],
+					"executionType": 1,
+					"filter": null,
+					"isEnabled": true,
+					"viewContainerEventType": {
+						"availableExecutionType": 7,
+						"description": "Inicializaci\u00f3n de datos de un ViewContainer, despues de este evento se realiza el segimiento de cambios en los datos",
+						"eventId": 2,
+						"name": "InitData"
+					}
+				}
 			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
@@ -121,6 +138,8 @@
 							"query": {
 								"$ref": "../../../../CNTAS/ADMIN/queries/Q_CLIETNNT_ZN50.json#"
 							},
+							"queryId": "Q_CLIETNNT_ZN50",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
 							"queryViewId": "QV_FY50_WUN80",
@@ -306,7 +325,7 @@
 						],
 						"enabled": 4095,
 						"entity": {
-							"$ref": "../../../../CNTAS/entities/EN_1RYFYHYJA_254.json#"
+							"$ref": "../../../../CNTAS/entities/EN_FILTROCEI_982.json#"
 						},
 						"eventType": 0,
 						"groupId": "G_NUEVACUTNN_197241",
@@ -326,7 +345,7 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_1RYFYHYJA_254.json#/attributes/AT03_2DSRLIXG254"
+									"$ref": "../../../../CNTAS/entities/EN_FILTROCEI_982.json#/attributes/AT81_CEDULAZJ982"
 								},
 								"attributeValidations": [
 								],
@@ -337,7 +356,7 @@
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
-								"enabled": 8,
+								"enabled": 4095,
 								"format": "",
 								"include": 4095,
 								"isCustomized": false,
@@ -349,10 +368,10 @@
 									"moduleId": "CNTAS"
 								},
 								"maxRecords": null,
-								"name": "attribute2",
+								"name": "cedula",
 								"options": 0,
 								"order": 1,
-								"readOnly": 11,
+								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,
 								"sizeWidthComposite": null,
@@ -363,7 +382,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_2LZWBDSGXUVRWXO_913241",
+								"visualAttributeId": "VA_CEDULAPCQHBWUWB_213241",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -376,20 +395,38 @@
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VAIMAGEBUTTONNN_740241_157",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+										],
+										"executionType": 1,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
 								"enabled": 4095,
-								"entityQuery": null,
+								"entityQuery": "EN_CLIENTEIX_920",
 								"imageId": "fa fa-search",
 								"include": 4095,
 								"isCustomized": false,
 								"maxRecords": null,
-								"name": "VA_VAIMAGEBUTTONNN_458241",
+								"name": "VA_VAIMAGEBUTTONNN_740241",
 								"options": 0,
 								"order": 2,
-								"queryModule": null,
-								"queryVersion": null,
+								"queryId": "Q_CLIETNNT_ZN50",
+								"queryModule": "CNTAS",
+								"queryVersion": "1.0.0",
 								"responsiveLayouts": null,
 								"responsivity": false,
 								"sizeWidthComposite": null,
@@ -399,7 +436,7 @@
 									"userControlId": "ImageButton"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_VAIMAGEBUTTONNN_458241",
+								"visualAttributeId": "VA_VAIMAGEBUTTONNN_740241",
 								"width": null,
 								"widthComposite": "D"
 							}

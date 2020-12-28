@@ -1,0 +1,113 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "C"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "25160"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_cedula",
+			"type": "CUSTOM",
+			"value": "cedula"
+		}
+	],
+	"name": "BLI_buscar_cliente",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI5772_bli_buscar_cliente",
+	"patternName": "BLI_buscar_cliente",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "4fd96064-fe0e-4beb-b8d9-fb898a338389",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 1,
+			"queryName": "SELECT \tcl_id,\r\n\t   \t\t\tcl_nombre,\r\n\t   \t\t\tcl_apellido,\r\n\t   \t\t\tcl_telefono,\r\n\t   \t\t\tcl_cedula,\r\n\t   \t\t\tpa_nacionalidad\r\n\t   \t\t\tFROM"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "4fd96064-fe0e-4beb-b8d9-fb898a338389",
+			"columns": [
+				{
+					"attributeId": "AT30_NOMBREIQ920",
+					"entityId": "EN_CLIENTEIX_920",
+					"format": "",
+					"name": "nombre",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT59_APELLIDD920",
+					"entityId": "EN_CLIENTEIX_920",
+					"format": "",
+					"name": "apellido",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT91_CEDULAKS920",
+					"entityId": "EN_CLIENTEIX_920",
+					"format": "",
+					"name": "cedula",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT94_CODIGOTA920",
+					"entityId": "EN_CLIENTEIX_920",
+					"format": "",
+					"name": "codigo",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_CLIENTEIX_920",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "CUENTAS"
+			},
+			"name": "Cliente"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_cliente_taller",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}
