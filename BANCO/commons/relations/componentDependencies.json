@@ -12,6 +12,7 @@
 		}
 	},
 	"Forms": {
+<<<<<<< HEAD
 		"T_CNTASBNGJLVBS_124": {
 			"blis": [
 			],
@@ -19,6 +20,12 @@
 				"EN_CLIENTEIX_920": [
 					"AT30_NOMBREIQ920"
 				]
+=======
+		"T_CNTASADQLTLAP_450": {
+			"blis": [
+			],
+			"entities": {
+>>>>>>> 592f18b17badb318f608524c0de3d469351f1fc1
 			},
 			"externalEntities": {
 			},
@@ -27,7 +34,10 @@
 			"header": [
 			],
 			"labels": [
+<<<<<<< HEAD
 				"LBL_CNTAS_NOMBRERNC_65531"
+=======
+>>>>>>> 592f18b17badb318f608524c0de3d469351f1fc1
 			],
 			"queries": {
 			},
