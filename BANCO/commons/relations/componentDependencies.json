@@ -54,47 +54,19 @@
 			"blis": [
 			],
 			"entities": {
-			},
-			"externalEntities": {
-			},
-			"externalQueries": {
-			},
-			"header": [
-			],
-			"labels": [
-			],
-			"queries": {
-			},
-			"subForms": [
-			]
-		},
-		"T_CNTASPIVDVWDH_706": {
-			"blis": [
-			],
-			"entities": {
-			},
-			"externalEntities": {
-			},
-			"externalQueries": {
-			},
-			"header": [
-			],
-			"labels": [
-			],
-			"queries": {
-			},
-			"subForms": [
-			]
-		},
-		"T_CNTASTCBBKEXW_758": {
-			"blis": [
-			],
-			"entities": {
-				"EN_2UYHOXGPS_976": [
-					"AT02_1WBNTPEV976"
+				"EN_2MXNLYBVT_661": [
+					"AT02_1SAFULDN661"
 				],
-				"EN_3QMTKISDC_617": [
-					"AT02_1PDMJEAM617"
+				"EN_3LFPJZIHQ_311": [
+					"AT02_1NTOEPEV311"
+				],
+				"EN_CUENTADTN_360": [
+					"AT64_APELLIII360",
+					"AT73_CEDULAIC360",
+					"AT77_TIPOCUEA360",
+					"AT86_SALDORQA360",
+					"AT91_NUMERONT360",
+					"AT93_NOMBRETE360"
 				],
 				"EN_CUENTARZM_852": [
 					"AT64_SALDOZTR852",
@@ -116,7 +88,27 @@
 				"LBL_CNTAS_CUENTAOEE_37869"
 			],
 			"queries": {
+				"Q_CUENETNT_QR74": [
+					"QM_CUENEQTRN4461_05",
+					"QM_CUENEQTTRR624_02",
+					"QM_CUENERTRRT349_01",
+					"QM_CUENETR44T885_03",
+					"QM_CUENETT4TT658_04",
+					"QM_CUENETTQQT573_06",
+					"QM_CUENT6TA4T502_01",
+					"QM_CUENTAA4AT507_05",
+					"QM_CUENTAA64A176_04",
+					"QM_CUENTTZQQT279_06",
+					"QM_CUENTZAZQT267_03",
+					"QM_CUENTZQT4Q823_02"
+				],
 				"Q_CUENTAAT_QZ46": [
+					"QM_CUENEQTRN4461_05",
+					"QM_CUENEQTTRR624_02",
+					"QM_CUENERTRRT349_01",
+					"QM_CUENETR44T885_03",
+					"QM_CUENETT4TT658_04",
+					"QM_CUENETTQQT573_06",
 					"QM_CUENT6TA4T502_01",
 					"QM_CUENTAA4AT507_05",
 					"QM_CUENTAA64A176_04",
@@ -124,6 +116,24 @@
 					"QM_CUENTZAZQT267_03",
 					"QM_CUENTZQT4Q823_02"
 				]
+			},
+			"subForms": [
+			]
+		},
+		"T_CNTASPIVDVWDH_706": {
+			"blis": [
+			],
+			"entities": {
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
 			},
 			"subForms": [
 			]
