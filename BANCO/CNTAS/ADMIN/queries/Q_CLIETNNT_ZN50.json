@@ -1,0 +1,139 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_CLIETNNT_ZN50_981",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 7,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_CLIETNNT_ZN50",
+		"version": "1.0.0"
+	},
+	"isAutomatic": true,
+	"isImported": false,
+	"mainEntityId": "EN_CLIENTEIX_920",
+	"mainEntityModule": "CNTAS",
+	"mainEntityName": {
+		"$ref": "../../../CNTAS/relations/componentKeys.json#/Entities/EN_CLIENTEIX_920/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../CNTAS/relations/componentKeys.json#/ADMIN/Queries/Q_CLIETNNT_ZN50/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "apellido",
+			"attribute": {
+				"$ref": "../../../CNTAS/entities/EN_CLIENTEIX_920.json#/attributes/AT59_APELLIDD920"
+			},
+			"attributeQuery": "apellido",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": "1",
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIET5T0N0274_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "cedula",
+			"attribute": {
+				"$ref": "../../../CNTAS/entities/EN_CLIENTEIX_920.json#/attributes/AT91_CEDULAKS920"
+			},
+			"attributeQuery": "cedula",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": "2",
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIETTNT5T907_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "codigo",
+			"attribute": {
+				"$ref": "../../../CNTAS/entities/EN_CLIENTEIX_920.json#/attributes/AT94_CODIGOTA920"
+			},
+			"attributeQuery": "codigo",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": "3",
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIETTTT00309_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombre",
+			"attribute": {
+				"$ref": "../../../CNTAS/entities/EN_CLIENTEIX_920.json#/attributes/AT30_NOMBREIQ920"
+			},
+			"attributeQuery": "nombre",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": "0",
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIETZNZN5678_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "CNTAS",
+				"subModuleId": "ADMIN"
+			}
+		}
+	]
+}

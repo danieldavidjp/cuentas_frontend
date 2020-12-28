@@ -20,6 +20,12 @@
 			}
 		},
 		"Queries": {
+			"Q_CLIETNNT_ZN50": {
+				"name": "ClienteQuery"
+			},
+			"Q_CUENTAAT_QZ46": {
+				"name": "CuentaQuery"
+			}
 		},
 		"SubForms": {
 		}

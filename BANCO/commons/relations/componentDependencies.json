@@ -104,5 +104,13 @@
 		}
 	},
 	"Queries": {
+		"Q_CLIETNNT_ZN50": {
+			"labels": [
+			]
+		},
+		"Q_CUENTAAT_QZ46": {
+			"labels": [
+			]
+		}
 	}
 }

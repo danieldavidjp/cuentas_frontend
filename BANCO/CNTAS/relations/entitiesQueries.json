@@ -1,2 +1,16 @@
 {
+	"EN_CLIENTEIX_920": {
+		"queries": {
+			"Q_CLIETNNT_ZN50": {
+				"$ref": "../ADMIN/queries/Q_CLIETNNT_ZN50.json#"
+			}
+		}
+	},
+	"EN_CUENTARZM_852": {
+		"queries": {
+			"Q_CUENTAAT_QZ46": {
+				"$ref": "../ADMIN/queries/Q_CUENTAAT_QZ46.json#"
+			}
+		}
+	}
 }
