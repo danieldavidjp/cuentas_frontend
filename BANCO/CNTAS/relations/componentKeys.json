@@ -1,4 +1,17 @@
 {
+	"ADMIN": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_CNTASADQLTLAP_450": {
+				"name": "formNuevaCuenta"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
 	"Entities": {
 		"EN_CLIENTEIX_920": {
 			"name": "Cliente"
