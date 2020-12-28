@@ -31,6 +31,9 @@
 		}
 	},
 	"Entities": {
+		"EN_1RYFYHYJA_254": {
+			"name": "Entity1"
+		},
 		"EN_CLIENTEIX_920": {
 			"name": "Cliente"
 		},

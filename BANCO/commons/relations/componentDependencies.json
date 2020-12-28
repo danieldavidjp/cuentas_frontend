@@ -16,6 +16,15 @@
 			"blis": [
 			],
 			"entities": {
+				"EN_1RYFYHYJA_254": [
+					"AT03_2DSRLIXG254"
+				],
+				"EN_CLIENTEIX_920": [
+					"AT30_NOMBREIQ920",
+					"AT59_APELLIDD920",
+					"AT91_CEDULAKS920",
+					"AT94_CODIGOTA920"
+				]
 			},
 			"externalEntities": {
 			},
@@ -24,8 +33,15 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_CNTAS_CEDULAWXJ_29913"
 			],
 			"queries": {
+				"Q_CLIETNNT_ZN50": [
+					"QM_CLIET5T0N0274_02",
+					"QM_CLIETTNT5T907_03",
+					"QM_CLIETTTT00309_04",
+					"QM_CLIETZNZN5678_01"
+				]
 			},
 			"subForms": [
 			]
