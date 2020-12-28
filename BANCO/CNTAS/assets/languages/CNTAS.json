@@ -1,10 +1,9 @@
 {
-    "CNTAS": {
-        "LBL": {
-
-        },
-        "MSG": {
-
-        }
-    }
+	"CNTAS": {
+		"LBL": {
+			"LBL_CNTAS_CEDULATQP_14479": "Cedula"
+		},
+		"MSG": {
+		}
+	}
 }
