@@ -1,6 +1,14 @@
 {
-	"Entities": {},
-	"Forms": {},
-	"CompositeForms": {},
-	"Queries": {}
+	"CompositeForms": {
+	},
+	"Entities": {
+		"EN_CLIENTEIX_920": {
+			"labels": [
+			]
+		}
+	},
+	"Forms": {
+	},
+	"Queries": {
+	}
 }
