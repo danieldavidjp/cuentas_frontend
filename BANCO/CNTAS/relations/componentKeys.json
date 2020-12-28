@@ -5,6 +5,18 @@
 		"Forms": {
 			"T_CNTASADQLTLAP_450": {
 				"name": "formNuevaCuenta"
+			},
+			"T_CNTASIQOTREKI_837": {
+				"name": "FormTransferencia"
+			},
+			"T_CNTASPIVDVWDH_706": {
+				"name": "FormDeposito"
+			},
+			"T_CNTASTCBBKEXW_758": {
+				"name": "FormTransacciones"
+			},
+			"T_CNTASYADRIJAP_499": {
+				"name": "FormRetiro"
 			}
 		},
 		"Queries": {
