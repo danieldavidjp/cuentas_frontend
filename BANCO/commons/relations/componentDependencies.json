@@ -6,6 +6,10 @@
 			"labels": [
 			]
 		},
+		"EN_CUENTADTN_360": {
+			"labels": [
+			]
+		},
 		"EN_CUENTARZM_852": {
 			"labels": [
 			]
@@ -105,6 +109,10 @@
 	},
 	"Queries": {
 		"Q_CLIETNNT_ZN50": {
+			"labels": [
+			]
+		},
+		"Q_CUENETNT_QR74": {
 			"labels": [
 			]
 		},

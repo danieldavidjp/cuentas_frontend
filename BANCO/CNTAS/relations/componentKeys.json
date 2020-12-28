@@ -23,6 +23,9 @@
 			"Q_CLIETNNT_ZN50": {
 				"name": "ClienteQuery"
 			},
+			"Q_CUENETNT_QR74": {
+				"name": "CuentaDestinoQuery"
+			},
 			"Q_CUENTAAT_QZ46": {
 				"name": "CuentaQuery"
 			}
@@ -33,6 +36,9 @@
 	"Entities": {
 		"EN_CLIENTEIX_920": {
 			"name": "Cliente"
+		},
+		"EN_CUENTADTN_360": {
+			"name": "CuentaDestino"
 		},
 		"EN_CUENTARZM_852": {
 			"name": "Cuenta"
