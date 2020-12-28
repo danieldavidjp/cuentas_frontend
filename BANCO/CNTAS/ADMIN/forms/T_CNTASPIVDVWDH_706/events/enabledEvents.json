@@ -1,2 +1,18 @@
 [
+	{
+		"attributeName": "",
+		"controlId": "Q_CUENTAAT_QZ46",
+		"controlName": "CuentaQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../CNTAS/ADMIN/queries/Q_CUENTAAT_QZ46.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "queryEventType"
+	}
 ]

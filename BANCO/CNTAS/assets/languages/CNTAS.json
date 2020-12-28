@@ -1,2 +1,13 @@
 {
+	"CNTAS": {
+		"LBL": {
+			"LBL_CNTAS_CEDULAIKX_40864": "Cedula",
+			"LBL_CNTAS_DEPOSITAA_17926": "Depositar",
+			"LBL_CNTAS_NUEVOSAOO_49940": "Nuevo Saldo",
+			"LBL_CNTAS_NUMEROCAU_30831": "Numero de Cuenta",
+			"LBL_CNTAS_RETIRARRV_18619": "Retirar"
+		},
+		"MSG": {
+		}
+	}
 }

@@ -12,6 +12,9 @@
 			"T_CNTASPIVDVWDH_706": {
 				"name": "FormDeposito"
 			},
+			"T_CNTASRMFVUVGE_622": {
+				"name": "formDepoRetiro"
+			},
 			"T_CNTASTCBBKEXW_758": {
 				"name": "FormTransacciones"
 			},
@@ -31,6 +34,12 @@
 		}
 	},
 	"Entities": {
+		"EN_1LYMYOTMF_451": {
+			"name": "Entity1"
+		},
+		"EN_2FKMCEOHP_241": {
+			"name": "Entity2"
+		},
 		"EN_CLIENTEIX_920": {
 			"name": "Cliente"
 		},

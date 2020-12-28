@@ -52,6 +52,17 @@
 			"blis": [
 			],
 			"entities": {
+				"EN_2FKMCEOHP_241": [
+					"AT02_1HKTKSPY241"
+				],
+				"EN_CUENTARZM_852": [
+					"AT64_SALDOZTR852",
+					"AT67_TIPOCUET852",
+					"AT68_CEDULAEL852",
+					"AT73_NOMBRENN852",
+					"AT75_NUMEROCN852",
+					"AT93_APELLIDE852"
+				]
 			},
 			"externalEntities": {
 			},
@@ -60,6 +71,39 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_CNTAS_DEPOSITAA_17926",
+				"LBL_CNTAS_NUMEROCAU_30831"
+			],
+			"queries": {
+				"Q_CUENTAAT_QZ46": [
+					"QM_CUENT6TA4T502_01",
+					"QM_CUENTAA4AT507_05",
+					"QM_CUENTAA64A176_04",
+					"QM_CUENTTZQQT279_06",
+					"QM_CUENTZAZQT267_03",
+					"QM_CUENTZQT4Q823_02"
+				]
+			},
+			"subForms": [
+			]
+		},
+		"T_CNTASRMFVUVGE_622": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CUENTARZM_852": [
+					"AT64_SALDOZTR852"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_DEPOSITAA_17926",
+				"LBL_CNTAS_NUEVOSAOO_49940"
 			],
 			"queries": {
 			},
@@ -88,6 +132,17 @@
 			"blis": [
 			],
 			"entities": {
+				"EN_1LYMYOTMF_451": [
+					"AT02_1LSYNLZT451"
+				],
+				"EN_CUENTARZM_852": [
+					"AT64_SALDOZTR852",
+					"AT67_TIPOCUET852",
+					"AT68_CEDULAEL852",
+					"AT73_NOMBRENN852",
+					"AT75_NUMEROCN852",
+					"AT93_APELLIDE852"
+				]
 			},
 			"externalEntities": {
 			},
@@ -96,8 +151,17 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_CNTAS_CEDULAIKX_40864"
 			],
 			"queries": {
+				"Q_CUENTAAT_QZ46": [
+					"QM_CUENT6TA4T502_01",
+					"QM_CUENTAA4AT507_05",
+					"QM_CUENTAA64A176_04",
+					"QM_CUENTTZQQT279_06",
+					"QM_CUENTZAZQT267_03",
+					"QM_CUENTZQT4Q823_02"
+				]
 			},
 			"subForms": [
 			]
