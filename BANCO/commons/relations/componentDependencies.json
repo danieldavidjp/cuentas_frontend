@@ -5,9 +5,35 @@
 		"EN_CLIENTEIX_920": {
 			"labels": [
 			]
+		},
+		"EN_CUENTALZB_486": {
+			"labels": [
+			]
 		}
 	},
 	"Forms": {
+		"T_CNTASBNGJLVBS_124": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CLIENTEIX_920": [
+					"AT30_NOMBREIQ920"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_NOMBRERNC_65531"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		}
 	},
 	"Queries": {
 	}

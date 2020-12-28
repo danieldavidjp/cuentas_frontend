@@ -1,10 +1,9 @@
 {
-    "CNTAS": {
-        "LBL": {
-
-        },
-        "MSG": {
-
-        }
-    }
+	"CNTAS": {
+		"LBL": {
+			"LBL_CNTAS_NOMBRERNC_65531": "Nombre"
+		},
+		"MSG": {
+		}
+	}
 }

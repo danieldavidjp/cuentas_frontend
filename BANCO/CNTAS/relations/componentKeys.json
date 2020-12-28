@@ -1,7 +1,23 @@
 {
+	"ADMIN": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_CNTASBNGJLVBS_124": {
+				"name": "formDeposito"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
 	"Entities": {
 		"EN_CLIENTEIX_920": {
 			"name": "Cliente"
+		},
+		"EN_CUENTALZB_486": {
+			"name": "Cuenta"
 		}
 	}
 }
