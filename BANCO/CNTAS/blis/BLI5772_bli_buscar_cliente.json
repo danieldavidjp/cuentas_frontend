@@ -12,7 +12,7 @@
 			"format": "",
 			"name": "@i_operacion",
 			"type": "CONSTANT",
-			"value": "C"
+			"value": "S"
 		},
 		{
 			"attributeId": "",
@@ -47,24 +47,32 @@
 	"patternType": "Bli",
 	"queries": [
 		{
-			"_idQuery": "4fd96064-fe0e-4beb-b8d9-fb898a338389",
+			"_idQuery": "75bf8ac6-f0b2-4607-9d3e-e8d07602b05c",
 			"isMapReturn": true,
 			"isReturn": true,
 			"isSingleResult": false,
-			"numberQuery": 1,
-			"queryName": "SELECT \tcl_id,\r\n\t   \t\t\tcl_nombre,\r\n\t   \t\t\tcl_apellido,\r\n\t   \t\t\tcl_telefono,\r\n\t   \t\t\tcl_cedula,\r\n\t   \t\t\tpa_nacionalidad\r\n\t   \t\t\tFROM"
+			"numberQuery": 3,
+			"queryName": "SELECT"
 		}
 	],
 	"resultSets": [
 		{
-			"_idQuery": "4fd96064-fe0e-4beb-b8d9-fb898a338389",
+			"_idQuery": "75bf8ac6-f0b2-4607-9d3e-e8d07602b05c",
 			"columns": [
+				{
+					"attributeId": "AT94_CODIGOTA920",
+					"entityId": "EN_CLIENTEIX_920",
+					"format": "",
+					"name": "codigo",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
 				{
 					"attributeId": "AT30_NOMBREIQ920",
 					"entityId": "EN_CLIENTEIX_920",
 					"format": "",
 					"name": "nombre",
-					"position": 1,
+					"position": 2,
 					"type": "ATTRIBUTE"
 				},
 				{
@@ -72,7 +80,7 @@
 					"entityId": "EN_CLIENTEIX_920",
 					"format": "",
 					"name": "apellido",
-					"position": 2,
+					"position": 3,
 					"type": "ATTRIBUTE"
 				},
 				{
@@ -80,14 +88,6 @@
 					"entityId": "EN_CLIENTEIX_920",
 					"format": "",
 					"name": "cedula",
-					"position": 3,
-					"type": "ATTRIBUTE"
-				},
-				{
-					"attributeId": "AT94_CODIGOTA920",
-					"entityId": "EN_CLIENTEIX_920",
-					"format": "",
-					"name": "codigo",
 					"position": 4,
 					"type": "ATTRIBUTE"
 				}

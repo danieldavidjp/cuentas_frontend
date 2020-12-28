@@ -7,6 +7,7 @@ task.executeCommand.VA_VAIMAGEBUTTONNN_740241 = function(  entities, executeComm
 
     executeCommandEventArgs.commons.execServer = false;
     
+    executeCommandEventArgs.commons.viewState.show('G_NUEVACUETT_900241');
     executeCommandEventArgs.commons.api.grid.refresh('QV_FY50_WUN80');
 
 

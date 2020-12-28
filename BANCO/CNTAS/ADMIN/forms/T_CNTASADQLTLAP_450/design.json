@@ -94,8 +94,8 @@
 							"actionDesign": "Button",
 							"actions": [
 							],
-							"allowPaging": false,
-							"allowPagingStr": "F",
+							"allowPaging": true,
+							"allowPagingStr": "T",
 							"allowSorting": false,
 							"allowSortingStr": "F",
 							"autoSync": null,
@@ -134,7 +134,7 @@
 							"multiSelectEnabledStr": "F",
 							"name": "QV_FY50_WUN80",
 							"options": 0,
-							"pageSize": null,
+							"pageSize": 10,
 							"query": {
 								"$ref": "../../../../CNTAS/ADMIN/queries/Q_CLIETNNT_ZN50.json#"
 							},

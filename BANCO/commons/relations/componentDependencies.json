@@ -18,6 +18,7 @@
 	"Forms": {
 		"T_CNTASADQLTLAP_450": {
 			"blis": [
+				"BLI5772_bli_buscar_cliente"
 			],
 			"entities": {
 				"EN_CLIENTEIX_920": [

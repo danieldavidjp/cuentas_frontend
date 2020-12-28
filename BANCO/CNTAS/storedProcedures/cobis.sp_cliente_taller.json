@@ -115,8 +115,30 @@
 					"cedula",
 					"codigo"
 				],
-				"editMode": true,
+				"editMode": false,
 				"queryText": "SELECT \tcl_id,\r\n\t   \t\t\tcl_nombre,\r\n\t   \t\t\tcl_apellido,\r\n\t   \t\t\tcl_telefono,\r\n\t   \t\t\tcl_cedula,\r\n\t   \t\t\tpa_nacionalidad\r\n\t   \t\t\tFROM"
+			},
+			{
+				"_idQuery": "b94a6cba-9be4-4662-9f8f-f260b4c6b34a",
+				"columns": [
+					"apellido",
+					"cedula",
+					"codigo",
+					"nombre"
+				],
+				"editMode": false,
+				"queryText": "SELECT"
+			},
+			{
+				"_idQuery": "75bf8ac6-f0b2-4607-9d3e-e8d07602b05c",
+				"columns": [
+					"codigo",
+					"nombre",
+					"apellido",
+					"cedula"
+				],
+				"editMode": true,
+				"queryText": "SELECT"
 			}
 		],
 		"variables": [
