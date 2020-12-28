@@ -1,7 +1,9 @@
 {
 	"CNTAS": {
 		"LBL": {
-			"LBL_CNTAS_CEDULAWXJ_29913": "Cedula"
+			"LBL_CNTAS_CEDULAWXJ_29913": "Cedula",
+			"LBL_CNTAS_CUENTADOT_52317": "Cuenta Destino",
+			"LBL_CNTAS_CUENTAOEE_37869": "Cuenta Origen"
 		},
 		"MSG": {
 		}

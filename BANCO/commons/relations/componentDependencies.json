@@ -86,6 +86,20 @@
 			"blis": [
 			],
 			"entities": {
+				"EN_2UYHOXGPS_976": [
+					"AT02_1WBNTPEV976"
+				],
+				"EN_3QMTKISDC_617": [
+					"AT02_1PDMJEAM617"
+				],
+				"EN_CUENTARZM_852": [
+					"AT64_SALDOZTR852",
+					"AT67_TIPOCUET852",
+					"AT68_CEDULAEL852",
+					"AT73_NOMBRENN852",
+					"AT75_NUMEROCN852",
+					"AT93_APELLIDE852"
+				]
 			},
 			"externalEntities": {
 			},
@@ -94,8 +108,18 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_CNTAS_CUENTADOT_52317",
+				"LBL_CNTAS_CUENTAOEE_37869"
 			],
 			"queries": {
+				"Q_CUENTAAT_QZ46": [
+					"QM_CUENT6TA4T502_01",
+					"QM_CUENTAA4AT507_05",
+					"QM_CUENTAA64A176_04",
+					"QM_CUENTTZQQT279_06",
+					"QM_CUENTZAZQT267_03",
+					"QM_CUENTZQT4Q823_02"
+				]
 			},
 			"subForms": [
 			]
