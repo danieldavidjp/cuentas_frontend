@@ -27,6 +27,9 @@
 	"Entities": {
 		"EN_CLIENTEIX_920": {
 			"name": "Cliente"
+		},
+		"EN_CUENTARZM_852": {
+			"name": "Cuenta"
 		}
 	}
 }
