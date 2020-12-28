@@ -6,6 +6,13 @@
 			}
 		}
 	},
+	"EN_CUENTADTN_360": {
+		"queries": {
+			"Q_CUENETNT_QR74": {
+				"$ref": "../ADMIN/queries/Q_CUENETNT_QR74.json#"
+			}
+		}
+	},
 	"EN_CUENTARZM_852": {
 		"queries": {
 			"Q_CUENTAAT_QZ46": {
