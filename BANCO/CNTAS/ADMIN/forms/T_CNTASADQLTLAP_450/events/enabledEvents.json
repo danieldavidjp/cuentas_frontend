@@ -31,30 +31,16 @@
 	},
 	{
 		"attributeName": "",
-		"controlId": "VA_VABUTTONFVRNBCU_239241",
-		"controlName": "VA_VABUTTONFVRNBCU_239241",
-		"controlType": "Button",
+		"controlId": "VC_NUEVACUENT_340450",
+		"controlName": "",
+		"controlType": "",
 		"customEvents": [
 			{
-				"eventName": "executeCommand",
+				"eventName": "initData",
 				"executionType": 1
 			}
 		],
-		"entityName": "Cuenta",
-		"eventsType": "visualAttributeEventType"
-	},
-	{
-		"attributeName": "",
-		"controlId": "VA_VAIMAGEBUTTONNN_740241",
-		"controlName": "VA_VAIMAGEBUTTONNN_740241",
-		"controlType": "ImageButton",
-		"customEvents": [
-			{
-				"eventName": "executeCommand",
-				"executionType": 7
-			}
-		],
-		"entityName": "FiltroCliente",
-		"eventsType": "visualAttributeEventType"
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]
