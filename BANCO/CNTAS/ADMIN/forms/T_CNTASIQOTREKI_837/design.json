@@ -3,6 +3,65 @@
 	"cobisPattern": "None",
 	"cobisPatternId": 0,
 	"commands": [
+		{
+			"action": null,
+			"causesValidation": false,
+			"causesValidationAsString": "F",
+			"close": false,
+			"closeAsString": "F",
+			"commandType": 0,
+			"customEvents": [
+				{
+					"commandEventType": {
+						"availableExecutionType": 7,
+						"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+						"eventId": 10,
+						"name": "ExecuteCommand"
+					},
+					"customEventId": "CECM_010CM_TCNTASIQ_NRK_832",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+						{
+							"actionArgs": [
+							],
+							"actionId": "CUSTOM",
+							"actionType": "CUSTOM"
+						}
+					],
+					"executionType": 7,
+					"filter": null,
+					"isEnabled": true
+				}
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"group": null,
+			"id": {
+				"commandId": "CM_TCNTASIQ_NRK"
+			},
+			"imageId": null,
+			"isCustomized": false,
+			"label": {
+				"defaultValue": {
+					"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_TRANSFERR_17630"
+				},
+				"labelId": "LBL_CNTAS_TRANSFERR_17630",
+				"moduleId": "CNTAS"
+			},
+			"layoutType": "Command",
+			"name": "Command1",
+			"options": 0,
+			"order": 1,
+			"showInMode": 4095,
+			"userControl": {
+				"type": "A",
+				"userControlId": "Button"
+			},
+			"validationGroup": null
+		}
 	],
 	"customEvents": [
 	],
@@ -33,6 +92,23 @@
 			"columnsNum": 1,
 			"componentStyle": null,
 			"customEvents": [
+				{
+					"customEventId": "CEVC_008T_CNTASIQOTREKI_837_190",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+					],
+					"executionType": 1,
+					"filter": null,
+					"isEnabled": true,
+					"viewContainerEventType": {
+						"availableExecutionType": 1,
+						"description": "Se ejecuta antes de renderizar un ViewContainer, permite realizar personalizaciones visuales",
+						"eventId": 8,
+						"name": "Render"
+					}
+				}
 			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
@@ -76,7 +152,6 @@
 						"queryView": {
 							"actionDesign": "Button",
 							"actions": [
-								"Create,Update,Delete"
 							],
 							"allowPaging": false,
 							"allowPagingStr": "F",
@@ -91,11 +166,11 @@
 							"customizationLayer": 0,
 							"customizationLayerDescription": "ECU",
 							"customUrlDialog": null,
-							"deleteCommandEnabled": true,
-							"deleteCommandEnabledStr": "T",
+							"deleteCommandEnabled": false,
+							"deleteCommandEnabledStr": "F",
 							"dialogTitleLabelId": null,
-							"editCommandEnabled": true,
-							"editCommandEnabledStr": "T",
+							"editCommandEnabled": false,
+							"editCommandEnabledStr": "F",
 							"editMode": "0",
 							"entityName": {
 								"$ref": "../../../../CNTAS/entities/EN_CUENTADTN_360.json#/name"
@@ -111,8 +186,8 @@
 								"AT86_SALDORQA360",
 								"AT77_TIPOCUEA360"
 							],
-							"insertCommandEnabled": true,
-							"insertCommandEnabledStr": "T",
+							"insertCommandEnabled": false,
+							"insertCommandEnabledStr": "F",
 							"isCustomized": false,
 							"modalSize": null,
 							"modeSelection": "None",
@@ -133,7 +208,7 @@
 							"rowCommandAppearance": 0,
 							"style": null,
 							"subModuleIdDialog": null,
-							"taskIdDialog": "1.0.0",
+							"taskIdDialog": null,
 							"taskVersionDialog": null,
 							"typeFormDialog": null,
 							"userControl": {
@@ -455,6 +530,29 @@
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VAIMAGEBUTTONNN_641502_309",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											}
+										],
+										"executionType": 7,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
@@ -491,7 +589,7 @@
 						"componentStyle": null,
 						"customEvents": [
 						],
-						"enabled": 4095,
+						"enabled": 11,
 						"entity": {
 							"$ref": "../../../../CNTAS/entities/EN_CUENTARZM_852.json#"
 						},
@@ -507,7 +605,6 @@
 						"queryView": {
 							"actionDesign": "Button",
 							"actions": [
-								"Create,Update,Delete"
 							],
 							"allowPaging": false,
 							"allowPagingStr": "F",
@@ -522,11 +619,11 @@
 							"customizationLayer": 0,
 							"customizationLayerDescription": "ECU",
 							"customUrlDialog": null,
-							"deleteCommandEnabled": true,
-							"deleteCommandEnabledStr": "T",
+							"deleteCommandEnabled": false,
+							"deleteCommandEnabledStr": "F",
 							"dialogTitleLabelId": null,
-							"editCommandEnabled": true,
-							"editCommandEnabledStr": "T",
+							"editCommandEnabled": false,
+							"editCommandEnabledStr": "F",
 							"editMode": "0",
 							"entityName": {
 								"$ref": "../../../../CNTAS/entities/EN_CUENTARZM_852.json#/name"
@@ -542,8 +639,8 @@
 								"AT68_CEDULAEL852",
 								"AT64_SALDOZTR852"
 							],
-							"insertCommandEnabled": true,
-							"insertCommandEnabledStr": "T",
+							"insertCommandEnabled": false,
+							"insertCommandEnabledStr": "F",
 							"isCustomized": false,
 							"modalSize": null,
 							"modeSelection": "None",
@@ -564,7 +661,7 @@
 							"rowCommandAppearance": 0,
 							"style": null,
 							"subModuleIdDialog": null,
-							"taskIdDialog": "1.0.0",
+							"taskIdDialog": null,
 							"taskVersionDialog": null,
 							"typeFormDialog": null,
 							"userControl": {
@@ -581,7 +678,7 @@
 						"responsiveLayouts": null,
 						"responsivity": false,
 						"style": null,
-						"visible": 4095,
+						"visible": 11,
 						"visualAttributes": [
 							{
 								"aggregate": null,
@@ -886,6 +983,29 @@
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VAIMAGEBUTTONNN_498502_574",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											}
+										],
+										"executionType": 7,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",

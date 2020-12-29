@@ -9,12 +9,6 @@
 				{
 					"actionArgs": [
 					],
-					"actionId": "BLI7871_blis_sp_operaciones_consulta",
-					"actionType": "BLI"
-				},
-				{
-					"actionArgs": [
-					],
 					"actionId": "CUSTOM",
 					"actionType": "CUSTOM"
 				}
