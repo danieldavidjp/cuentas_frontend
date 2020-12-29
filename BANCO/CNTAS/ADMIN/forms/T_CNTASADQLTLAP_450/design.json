@@ -33,23 +33,6 @@
 			"columnsNum": 1,
 			"componentStyle": null,
 			"customEvents": [
-				{
-					"customEventId": "CEVC_002T_CNTASADQLTLAP_450_178",
-					"customizationLayer": 0,
-					"customizationLayerDescription": "ECU",
-					"enabled": "T",
-					"eventActions": [
-					],
-					"executionType": 1,
-					"filter": null,
-					"isEnabled": true,
-					"viewContainerEventType": {
-						"availableExecutionType": 7,
-						"description": "Inicializaci\u00f3n de datos de un ViewContainer, despues de este evento se realiza el segimiento de cambios en los datos",
-						"eventId": 2,
-						"name": "InitData"
-					}
-				}
 			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
@@ -94,8 +77,8 @@
 							"actionDesign": "Button",
 							"actions": [
 							],
-							"allowPaging": true,
-							"allowPagingStr": "T",
+							"allowPaging": false,
+							"allowPagingStr": "F",
 							"allowSorting": false,
 							"allowSortingStr": "F",
 							"autoSync": null,
@@ -134,7 +117,7 @@
 							"multiSelectEnabledStr": "F",
 							"name": "QV_FY50_WUN80",
 							"options": 0,
-							"pageSize": 10,
+							"pageSize": null,
 							"query": {
 								"$ref": "../../../../CNTAS/ADMIN/queries/Q_CLIETNNT_ZN50.json#"
 							},
@@ -395,23 +378,6 @@
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
-									{
-										"customEventId": "CEVA_010VA_VAIMAGEBUTTONNN_740241_157",
-										"customizationLayer": 0,
-										"customizationLayerDescription": "ECU",
-										"enabled": "T",
-										"eventActions": [
-										],
-										"executionType": 1,
-										"filter": null,
-										"isEnabled": true,
-										"visualAttributeEventType": {
-											"availableExecutionType": 7,
-											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
-											"eventId": 10,
-											"name": "ExecuteCommand"
-										}
-									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",

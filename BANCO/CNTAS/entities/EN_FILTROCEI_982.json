@@ -21,7 +21,7 @@
 			"objectType": null,
 			"order": 1,
 			"pkStr": "F",
-			"requiredStr": "T",
+			"requiredStr": "F",
 			"transientStr": "F",
 			"trueValue": null
 		}
