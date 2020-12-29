@@ -530,34 +530,11 @@
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
-									{
-										"customEventId": "CEVA_010VA_VAIMAGEBUTTONNN_641502_309",
-										"customizationLayer": 0,
-										"customizationLayerDescription": "ECU",
-										"enabled": "T",
-										"eventActions": [
-											{
-												"actionArgs": [
-												],
-												"actionId": "CUSTOM",
-												"actionType": "CUSTOM"
-											}
-										],
-										"executionType": 7,
-										"filter": null,
-										"isEnabled": true,
-										"visualAttributeEventType": {
-											"availableExecutionType": 7,
-											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
-											"eventId": 10,
-											"name": "ExecuteCommand"
-										}
-									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
 								"enabled": 4095,
-								"entityQuery": null,
+								"entityQuery": "EN_CUENTARZM_852",
 								"imageId": "fa fa-search",
 								"include": 4095,
 								"isCustomized": false,
@@ -565,8 +542,9 @@
 								"name": "",
 								"options": 0,
 								"order": 2,
-								"queryModule": null,
-								"queryVersion": null,
+								"queryId": "Q_CUENTAAT_QZ46",
+								"queryModule": "CNTAS",
+								"queryVersion": "1.0.0",
 								"responsiveLayouts": null,
 								"responsivity": false,
 								"sizeWidthComposite": null,
@@ -983,34 +961,11 @@
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
-									{
-										"customEventId": "CEVA_010VA_VAIMAGEBUTTONNN_498502_574",
-										"customizationLayer": 0,
-										"customizationLayerDescription": "ECU",
-										"enabled": "T",
-										"eventActions": [
-											{
-												"actionArgs": [
-												],
-												"actionId": "CUSTOM",
-												"actionType": "CUSTOM"
-											}
-										],
-										"executionType": 7,
-										"filter": null,
-										"isEnabled": true,
-										"visualAttributeEventType": {
-											"availableExecutionType": 7,
-											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
-											"eventId": 10,
-											"name": "ExecuteCommand"
-										}
-									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
 								"enabled": 4095,
-								"entityQuery": null,
+								"entityQuery": "EN_CUENTADTN_360",
 								"imageId": "fa fa-search",
 								"include": 4095,
 								"isCustomized": false,
@@ -1018,8 +973,9 @@
 								"name": "",
 								"options": 0,
 								"order": 2,
-								"queryModule": null,
-								"queryVersion": null,
+								"queryId": "Q_CUENETNT_QR74",
+								"queryModule": "CNTAS",
+								"queryVersion": "1.0.0",
 								"responsiveLayouts": null,
 								"responsivity": false,
 								"sizeWidthComposite": null,

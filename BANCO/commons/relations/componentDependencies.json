@@ -72,6 +72,7 @@
 		},
 		"T_CNTASIQOTREKI_837": {
 			"blis": [
+				"BLI7871_blis_sp_operaciones_consulta"
 			],
 			"entities": {
 				"EN_CUENTADTN_360": [
@@ -108,6 +109,12 @@
 			],
 			"queries": {
 				"Q_CUENETNT_QR74": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
 					"QM_CUENEQTRN4461_05",
 					"QM_CUENEQTTRR624_02",
 					"QM_CUENERTRRT349_01",
@@ -122,6 +129,10 @@
 					"QM_CUENTZQT4Q823_02"
 				],
 				"Q_CUENTAAT_QZ46": [
+					"",
+					"",
+					"",
+					"",
 					"QM_CUENEQTRN4461_05",
 					"QM_CUENEQTTRR624_02",
 					"QM_CUENERTRRT349_01",
@@ -141,7 +152,8 @@
 		},
 		"T_CNTASPIVDVWDH_706": {
 			"blis": [
-				"BLI7762_bli_sp_operaciones_deposito"
+				"BLI7762_bli_sp_operaciones_deposito",
+				"BLI7871_blis_sp_operaciones_consulta"
 			],
 			"entities": {
 				"EN_CUENTARZM_852": [

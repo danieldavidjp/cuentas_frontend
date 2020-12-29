@@ -47,34 +47,6 @@
 	},
 	{
 		"attributeName": "",
-		"controlId": "VA_VAIMAGEBUTTONNN_498502",
-		"controlName": "",
-		"controlType": "ImageButton",
-		"customEvents": [
-			{
-				"eventName": "executeCommand",
-				"executionType": 7
-			}
-		],
-		"entityName": "FiltroCuenta",
-		"eventsType": "visualAttributeEventType"
-	},
-	{
-		"attributeName": "",
-		"controlId": "VA_VAIMAGEBUTTONNN_641502",
-		"controlName": "",
-		"controlType": "ImageButton",
-		"customEvents": [
-			{
-				"eventName": "executeCommand",
-				"executionType": 7
-			}
-		],
-		"entityName": "FiltroCuenta",
-		"eventsType": "visualAttributeEventType"
-	},
-	{
-		"attributeName": "",
 		"controlId": "VC_TRANSFERNI_536837",
 		"controlName": "",
 		"controlType": "",
