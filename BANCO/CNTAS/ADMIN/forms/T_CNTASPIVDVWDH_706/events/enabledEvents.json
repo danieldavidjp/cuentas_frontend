@@ -40,7 +40,7 @@
 				"executionType": 7
 			}
 		],
-		"entityName": "DepoReti",
+		"entityName": "FiltroCuenta",
 		"eventsType": "visualAttributeEventType"
 	}
 ]

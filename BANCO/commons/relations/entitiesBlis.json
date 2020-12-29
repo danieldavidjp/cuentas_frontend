@@ -16,6 +16,40 @@
 			},
 			"idBli": "BLI5772_bli_buscar_cliente",
 			"nameBli": "BLI_buscar_cliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_DEPORETII_613",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI7762_bli_sp_operaciones_deposito",
+			"nameBli": "BLI_sp_operaciones_deposito"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CUENTARZM_852",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI7871_blis_sp_operaciones_consulta",
+			"nameBli": "BLIS_sp_operaciones_consulta"
 		}
 	]
 }

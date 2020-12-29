@@ -1,0 +1,102 @@
+{
+	"filename": "D:\\CapacitacionCMC\\CTS\\sp to json\\g1_sp_operaciones.sp",
+	"procedure": {
+		"database": "cobis",
+		"name": "g1_sp_operaciones",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_cuenta"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_cuentaD"
+			},
+			{
+				"dataType": "float",
+				"direction": "in",
+				"name": "@i_valor"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "7fc898c4-5e0f-451f-bec0-291a2239287d",
+				"columns": [
+					"{0}",
+					"{1}",
+					"{2}",
+					"{3}",
+					"{4}",
+					"tipo_cuenta"
+				],
+				"editMode": true,
+				"queryText": "SELECT\r\n\t\t\t\tcl_cedula,\r\n\t\t\t\tcl_nombre,\r\n\t\t\t\tcl_apellido,\r\n\t\t\t\tca_banco,\r\n\t\t\t\tca_saldo,\r\n\t\t\t\t\u0027A\u0027 AS tipo_cuenta\r\n\t\t\tFROM"
+			},
+			{
+				"_idQuery": "6a76a6a9-7012-4e0c-98a6-0071aa89cea9",
+				"columns": [
+					"{0}",
+					"{1}",
+					"{2}",
+					"{3}",
+					"{4}",
+					"tipo_cuenta"
+				],
+				"editMode": true,
+				"queryText": "SELECT\r\n\t\t\t\tcl_cedula,\r\n\t\t\t\tcl_nombre,\r\n\t\t\t\tcl_apellido,\r\n\t\t\t\tcc_banco,\r\n\t\t\t\tcc_saldo,\r\n\t\t\t\t\u0027C\u0027 AS tipo_cuenta\r\n\t\t\tFROM"
+			},
+			{
+				"_idQuery": "45491e8a-5f9a-401c-b21f-92e4feca5535",
+				"columns": [
+					"numeroCuenta",
+					" apellidoCliente",
+					" nombreCliente",
+					" tipoCuenta",
+					" cedula",
+					" saldo"
+				],
+				"editMode": true,
+				"queryText": "SELECT"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@id_cliente"
+			},
+			{
+				"dataType": "char",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_exist"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_rows"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}
