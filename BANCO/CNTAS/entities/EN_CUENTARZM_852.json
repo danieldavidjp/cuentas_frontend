@@ -40,7 +40,7 @@
 			"falseValue": null,
 			"labelId": null,
 			"length": 0,
-			"listValues": "A;Ahorros|C;Corriente",
+			"listValues": null,
 			"name": "tipoCuenta",
 			"objectType": null,
 			"order": 6,

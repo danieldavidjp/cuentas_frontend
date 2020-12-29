@@ -27,6 +27,10 @@
 					"AT91_CEDULAKS920",
 					"AT94_CODIGOTA920"
 				],
+				"EN_CUENTARZM_852": [
+					"AT64_SALDOZTR852",
+					"AT67_TIPOCUET852"
+				],
 				"EN_FILTROCEI_982": [
 					"AT81_CEDULAZJ982"
 				]
@@ -38,7 +42,10 @@
 			"header": [
 			],
 			"labels": [
-				"LBL_CNTAS_CEDULAWXJ_29913"
+				"LBL_CNTAS_CEDULAWXJ_29913",
+				"LBL_CNTAS_CREARCUAT_66871",
+				"LBL_CNTAS_SALDOINIC_41095",
+				"LBL_CNTAS_TIPOCUETA_22304"
 			],
 			"queries": {
 				"Q_CLIETNNT_ZN50": [
