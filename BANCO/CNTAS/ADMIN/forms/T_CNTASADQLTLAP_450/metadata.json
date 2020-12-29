@@ -1,6 +1,30 @@
 {
 	"entities": [
+		{
+			"entityId": "EN_CLIENTEIX_920",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		},
+		{
+			"entityId": "EN_CUENTARZM_852",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		},
+		{
+			"entityId": "EN_FILTROCEI_982",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		}
 	],
 	"queries": [
+		{
+			"moduleId": "CNTAS",
+			"queryId": "Q_CLIETNNT_ZN50",
+			"related": false,
+			"subModuleId": "ADMIN"
+		}
 	]
 }

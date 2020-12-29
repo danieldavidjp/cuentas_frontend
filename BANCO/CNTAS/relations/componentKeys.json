@@ -47,7 +47,10 @@
 			"name": "Cuenta"
 		},
 		"EN_DEPORETII_613": {
-			"name": "Filtro"
+			"name": "FiltroCuenta"
+		},
+		"EN_FILTROCEI_982": {
+			"name": "FiltroCliente"
 		}
 	}
 }

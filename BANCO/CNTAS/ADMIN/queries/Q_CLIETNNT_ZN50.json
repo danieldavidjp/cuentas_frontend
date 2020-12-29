@@ -9,6 +9,12 @@
 				{
 					"actionArgs": [
 					],
+					"actionId": "BLI5772_bli_buscar_cliente",
+					"actionType": "BLI"
+				},
+				{
+					"actionArgs": [
+					],
 					"actionId": "CUSTOM",
 					"actionType": "CUSTOM"
 				}
@@ -29,7 +35,7 @@
 		"queryId": "Q_CLIETNNT_ZN50",
 		"version": "1.0.0"
 	},
-	"isAutomatic": true,
+	"isAutomatic": false,
 	"isImported": false,
 	"mainEntityId": "EN_CLIENTEIX_920",
 	"mainEntityModule": "CNTAS",
@@ -46,14 +52,13 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CLIENTEIX_920.json#/attributes/AT59_APELLIDD920"
 			},
-			"attributeQuery": "apellido",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
 			"operator": null,
-			"order": "1",
+			"order": 1,
 			"orderBy": null,
 			"orderByDirection": null,
 			"queryMemberId": "QM_CLIET5T0N0274_02",
@@ -67,14 +72,13 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CLIENTEIX_920.json#/attributes/AT91_CEDULAKS920"
 			},
-			"attributeQuery": "cedula",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
 			"operator": null,
-			"order": "2",
+			"order": 2,
 			"orderBy": null,
 			"orderByDirection": null,
 			"queryMemberId": "QM_CLIETTNT5T907_03",
@@ -88,14 +92,13 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CLIENTEIX_920.json#/attributes/AT94_CODIGOTA920"
 			},
-			"attributeQuery": "codigo",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
 			"operator": null,
-			"order": "3",
+			"order": 3,
 			"orderBy": null,
 			"orderByDirection": null,
 			"queryMemberId": "QM_CLIETTTT00309_04",
@@ -109,14 +112,13 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CLIENTEIX_920.json#/attributes/AT30_NOMBREIQ920"
 			},
-			"attributeQuery": "nombre",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
 			"operator": null,
-			"order": "0",
+			"order": 4,
 			"orderBy": null,
 			"orderByDirection": null,
 			"queryMemberId": "QM_CLIETZNZN5678_01",
