@@ -31,22 +31,6 @@
 	},
 	{
 		"attributeName": "",
-		"controlId": "Q_CUENTAAT_QZ46",
-		"controlName": "CuentaQuery",
-		"controlType": "Query",
-		"customEvents": [
-			{
-				"eventName": "executeQuery",
-				"executionType": {
-					"$ref": "../../../../../CNTAS/ADMIN/queries/Q_CUENTAAT_QZ46.json#/customEvents"
-				}
-			}
-		],
-		"entityName": "Cuenta",
-		"eventsType": "queryEventType"
-	},
-	{
-		"attributeName": "",
 		"controlId": "VA_VAIMAGEBUTTONNN_548102",
 		"controlName": "",
 		"controlType": "ImageButton",
@@ -58,5 +42,19 @@
 		],
 		"entityName": "FiltroCuenta",
 		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_DEPOSITOHU_902706",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "render",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]

@@ -47,63 +47,63 @@
 	"patternType": "Bli",
 	"queries": [
 		{
-			"_idQuery": "45491e8a-5f9a-401c-b21f-92e4feca5535",
+			"_idQuery": "f2f8db6d-29f2-4045-9c84-9c075a9708f0",
 			"isMapReturn": true,
 			"isReturn": true,
 			"isSingleResult": false,
-			"numberQuery": 3,
+			"numberQuery": 4,
 			"queryName": "SELECT"
 		}
 	],
 	"resultSets": [
 		{
-			"_idQuery": "45491e8a-5f9a-401c-b21f-92e4feca5535",
+			"_idQuery": "f2f8db6d-29f2-4045-9c84-9c075a9708f0",
 			"columns": [
 				{
-					"attributeId": "AT75_NUMEROCN852",
-					"entityId": "EN_CUENTARZM_852",
+					"attributeId": "AT73_CEDULAIC360",
+					"entityId": "EN_CUENTADTN_360",
 					"format": "",
-					"name": "numeroCuenta",
+					"name": "cedula",
 					"position": 1,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT93_APELLIDE852",
-					"entityId": "EN_CUENTARZM_852",
+					"attributeId": "AT93_NOMBRETE360",
+					"entityId": "EN_CUENTADTN_360",
 					"format": "",
-					"name": " apellidoCliente",
+					"name": " nombreCliente",
 					"position": 2,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT73_NOMBRENN852",
-					"entityId": "EN_CUENTARZM_852",
+					"attributeId": "AT64_APELLIII360",
+					"entityId": "EN_CUENTADTN_360",
 					"format": "",
-					"name": " nombreCliente",
+					"name": " apellidoCliente",
 					"position": 3,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT67_TIPOCUET852",
-					"entityId": "EN_CUENTARZM_852",
+					"attributeId": "AT91_NUMERONT360",
+					"entityId": "EN_CUENTADTN_360",
 					"format": "",
-					"name": " tipoCuenta",
+					"name": " numeroCuenta",
 					"position": 4,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT68_CEDULAEL852",
-					"entityId": "EN_CUENTARZM_852",
+					"attributeId": "AT86_SALDORQA360",
+					"entityId": "EN_CUENTADTN_360",
 					"format": "",
-					"name": " cedula",
+					"name": " saldo",
 					"position": 5,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT64_SALDOZTR852",
-					"entityId": "EN_CUENTARZM_852",
+					"attributeId": "AT77_TIPOCUEA360",
+					"entityId": "EN_CUENTADTN_360",
 					"format": "",
-					"name": " saldo",
+					"name": " tipoCuenta",
 					"position": 6,
 					"type": "ATTRIBUTE"
 				}
@@ -114,12 +114,12 @@
 	],
 	"returnEntity": [
 		{
-			"entityId": "EN_CUENTARZM_852",
+			"entityId": "EN_CUENTADTN_360",
 			"module": {
 				"moduleId": "CNTAS",
 				"moduleName": "CUENTAS"
 			},
-			"name": "Cuenta"
+			"name": "CuentaDestino"
 		}
 	],
 	"serverName": "CENTRAL",

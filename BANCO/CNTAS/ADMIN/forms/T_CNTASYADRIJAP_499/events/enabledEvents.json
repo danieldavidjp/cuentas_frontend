@@ -1,18 +1,46 @@
 [
 	{
 		"attributeName": "",
-		"controlId": "Q_CUENTAAT_QZ46",
-		"controlName": "CuentaQuery",
+		"controlId": "CM_TCNTASYA_TM9",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "",
+		"eventsType": "commandEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "Q_CUENETNT_QR74",
+		"controlName": "CuentaDestinoQuery",
 		"controlType": "Query",
 		"customEvents": [
 			{
 				"eventName": "executeQuery",
 				"executionType": {
-					"$ref": "../../../../../CNTAS/ADMIN/queries/Q_CUENTAAT_QZ46.json#/customEvents"
+					"$ref": "../../../../../CNTAS/ADMIN/queries/Q_CUENETNT_QR74.json#/customEvents"
 				}
 			}
 		],
-		"entityName": "Cuenta",
+		"entityName": "CuentaDestino",
 		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_RETIROYQZC_916499",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "render",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]

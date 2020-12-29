@@ -70,6 +70,19 @@
 				],
 				"editMode": false,
 				"queryText": "SELECT"
+			},
+			{
+				"_idQuery": "f2f8db6d-29f2-4045-9c84-9c075a9708f0",
+				"columns": [
+					"cedula",
+					" nombreCliente",
+					" apellidoCliente",
+					" numeroCuenta",
+					" saldo",
+					" tipoCuenta"
+				],
+				"editMode": false,
+				"queryText": "SELECT"
 			}
 		],
 		"variables": [
