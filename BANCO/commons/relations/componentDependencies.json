@@ -140,6 +140,7 @@
 		},
 		"T_CNTASPIVDVWDH_706": {
 			"blis": [
+				"BLI7762_bli_sp_operaciones_deposito"
 			],
 			"entities": {
 				"EN_CUENTARZM_852": [
@@ -167,7 +168,13 @@
 				"LBL_CNTAS_VALORDWEW_99968"
 			],
 			"queries": {
+				"Q_CUENETNT_QR74": [
+					"",
+					""
+				],
 				"Q_CUENTAAT_QZ46": [
+					"",
+					"",
 					"QM_CUENT6TA4T502_01",
 					"QM_CUENTAA4AT507_05",
 					"QM_CUENTAA64A176_04",

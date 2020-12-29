@@ -16,6 +16,12 @@
 	"queries": [
 		{
 			"moduleId": "CNTAS",
+			"queryId": "Q_CUENETNT_QR74",
+			"related": false,
+			"subModuleId": "ADMIN"
+		},
+		{
+			"moduleId": "CNTAS",
 			"queryId": "Q_CUENTAAT_QZ46",
 			"related": false,
 			"subModuleId": "ADMIN"

@@ -9,6 +9,12 @@
 				{
 					"actionArgs": [
 					],
+					"actionId": "BLI7871_blis_sp_operaciones_consulta",
+					"actionType": "BLI"
+				},
+				{
+					"actionArgs": [
+					],
 					"actionId": "CUSTOM",
 					"actionType": "CUSTOM"
 				}
@@ -46,7 +52,6 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT86_SALDORQA360"
 			},
-			"attributeQuery": "saldo",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
@@ -67,7 +72,6 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT64_APELLIII360"
 			},
-			"attributeQuery": "apellidoCliente",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
@@ -88,7 +92,6 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT91_NUMERONT360"
 			},
-			"attributeQuery": "numeroCuenta",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
@@ -109,7 +112,6 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT93_NOMBRETE360"
 			},
-			"attributeQuery": "nombreCliente",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
@@ -130,7 +132,6 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT73_CEDULAIC360"
 			},
-			"attributeQuery": "cedulaCliente",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
@@ -151,7 +152,6 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT77_TIPOCUEA360"
 			},
-			"attributeQuery": "tipoCuenta",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,

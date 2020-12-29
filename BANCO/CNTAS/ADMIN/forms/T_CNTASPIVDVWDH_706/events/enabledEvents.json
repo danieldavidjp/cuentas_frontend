@@ -15,6 +15,22 @@
 	},
 	{
 		"attributeName": "",
+		"controlId": "Q_CUENETNT_QR74",
+		"controlName": "CuentaDestinoQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../CNTAS/ADMIN/queries/Q_CUENETNT_QR74.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "CuentaDestino",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
 		"controlId": "Q_CUENTAAT_QZ46",
 		"controlName": "CuentaQuery",
 		"controlType": "Query",
@@ -40,7 +56,7 @@
 				"executionType": 7
 			}
 		],
-		"entityName": "DepoReti",
+		"entityName": "FiltroCuenta",
 		"eventsType": "visualAttributeEventType"
 	}
 ]
