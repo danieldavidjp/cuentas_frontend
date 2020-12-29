@@ -42,7 +42,7 @@
 					"{4}",
 					"tipo_cuenta"
 				],
-				"editMode": true,
+				"editMode": false,
 				"queryText": "SELECT\r\n\t\t\t\tcl_cedula,\r\n\t\t\t\tcl_nombre,\r\n\t\t\t\tcl_apellido,\r\n\t\t\t\tca_banco,\r\n\t\t\t\tca_saldo,\r\n\t\t\t\t\u0027A\u0027 AS tipo_cuenta\r\n\t\t\tFROM"
 			},
 			{
@@ -55,7 +55,7 @@
 					"{4}",
 					"tipo_cuenta"
 				],
-				"editMode": true,
+				"editMode": false,
 				"queryText": "SELECT\r\n\t\t\t\tcl_cedula,\r\n\t\t\t\tcl_nombre,\r\n\t\t\t\tcl_apellido,\r\n\t\t\t\tcc_banco,\r\n\t\t\t\tcc_saldo,\r\n\t\t\t\t\u0027C\u0027 AS tipo_cuenta\r\n\t\t\tFROM"
 			},
 			{
@@ -68,7 +68,7 @@
 					" cedula",
 					" saldo"
 				],
-				"editMode": true,
+				"editMode": false,
 				"queryText": "SELECT"
 			}
 		],

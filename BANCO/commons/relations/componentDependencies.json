@@ -140,7 +140,8 @@
 		},
 		"T_CNTASPIVDVWDH_706": {
 			"blis": [
-				"BLI7762_bli_sp_operaciones_deposito"
+				"BLI7762_bli_sp_operaciones_deposito",
+				"BLI7871_blis_sp_operaciones_consulta"
 			],
 			"entities": {
 				"EN_CUENTARZM_852": [

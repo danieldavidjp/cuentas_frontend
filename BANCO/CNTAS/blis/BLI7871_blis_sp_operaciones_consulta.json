@@ -5,6 +5,17 @@
 	"inputParameters": [
 		{
 			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_cuenta",
+			"type": "CUSTOM",
+			"value": "cuenta"
+		},
+		{
+			"attributeId": "",
 			"bddType": "char",
 			"dataType": "CHAR",
 			"direction": "in",
