@@ -9,6 +9,12 @@
 				{
 					"actionArgs": [
 					],
+					"actionId": "BLI5772_bli_buscar_cliente",
+					"actionType": "BLI"
+				},
+				{
+					"actionArgs": [
+					],
 					"actionId": "CUSTOM",
 					"actionType": "CUSTOM"
 				}
@@ -46,7 +52,6 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CLIENTEIX_920.json#/attributes/AT59_APELLIDD920"
 			},
-			"attributeQuery": "apellido",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
@@ -67,7 +72,6 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CLIENTEIX_920.json#/attributes/AT91_CEDULAKS920"
 			},
-			"attributeQuery": "cedula",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
@@ -88,7 +92,6 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CLIENTEIX_920.json#/attributes/AT94_CODIGOTA920"
 			},
-			"attributeQuery": "codigo",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
@@ -109,7 +112,6 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CLIENTEIX_920.json#/attributes/AT30_NOMBREIQ920"
 			},
-			"attributeQuery": "nombre",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,

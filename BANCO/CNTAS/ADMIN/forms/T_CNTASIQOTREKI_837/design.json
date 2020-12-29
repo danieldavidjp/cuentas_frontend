@@ -385,7 +385,7 @@
 						],
 						"enabled": 4095,
 						"entity": {
-							"$ref": "../../../../CNTAS/entities/EN_2MXNLYBVT_661.json#"
+							"$ref": "../../../../CNTAS/entities/EN_DEPORETII_613.json#"
 						},
 						"eventType": 0,
 						"groupId": "G_TRANSFEEAE_526502",
@@ -405,7 +405,7 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_2MXNLYBVT_661.json#/attributes/AT02_1SAFULDN661"
+									"$ref": "../../../../CNTAS/entities/EN_DEPORETII_613.json#/attributes/AT67_NUMEROEA613"
 								},
 								"attributeValidations": [
 								],
@@ -428,7 +428,7 @@
 									"moduleId": "CNTAS"
 								},
 								"maxRecords": null,
-								"name": "attribute1",
+								"name": "numeroCuenta",
 								"options": 0,
 								"order": 1,
 								"readOnly": 8,
@@ -442,7 +442,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_1WMCFRQILFIDCSF_537502",
+								"visualAttributeId": "VA_NUMEROCUENTAAGW_531502",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -464,7 +464,7 @@
 								"include": 4095,
 								"isCustomized": false,
 								"maxRecords": null,
-								"name": "VA_VAIMAGEBUTTONNN_641502",
+								"name": "",
 								"options": 0,
 								"order": 2,
 								"queryModule": null,
@@ -816,7 +816,7 @@
 						],
 						"enabled": 4095,
 						"entity": {
-							"$ref": "../../../../CNTAS/entities/EN_3LFPJZIHQ_311.json#"
+							"$ref": "../../../../CNTAS/entities/EN_DEPORETII_613.json#"
 						},
 						"eventType": 0,
 						"groupId": "G_TRANSFERRE_934502",
@@ -836,7 +836,7 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_3LFPJZIHQ_311.json#/attributes/AT02_1NTOEPEV311"
+									"$ref": "../../../../CNTAS/entities/EN_DEPORETII_613.json#/attributes/AT29_CUENTAOT613"
 								},
 								"attributeValidations": [
 								],
@@ -859,7 +859,7 @@
 									"moduleId": "CNTAS"
 								},
 								"maxRecords": null,
-								"name": "attribute1",
+								"name": "cuentaDestino",
 								"options": 0,
 								"order": 1,
 								"readOnly": 8,
@@ -873,7 +873,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_1FVSKKPONRONKEL_975502",
+								"visualAttributeId": "VA_CUENTADESTINOOO_766502",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -895,7 +895,7 @@
 								"include": 4095,
 								"isCustomized": false,
 								"maxRecords": null,
-								"name": "VA_VAIMAGEBUTTONNN_498502",
+								"name": "",
 								"options": 0,
 								"order": 2,
 								"queryModule": null,

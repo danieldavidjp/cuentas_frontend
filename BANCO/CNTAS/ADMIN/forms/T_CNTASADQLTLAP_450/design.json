@@ -56,6 +56,185 @@
 					{
 						"collapsedStr": "F",
 						"colSpan": 1,
+						"columnsNum": 3,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../CNTAS/entities/EN_CUENTARZM_852.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_NUEVACUAAT_999241",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group1584",
+						"order": 3,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../CNTAS/entities/EN_CUENTARZM_852.json#/attributes/AT64_SALDOZTR852"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_SALDOINIC_41095"
+									},
+									"labelId": "LBL_CNTAS_SALDOINIC_41095",
+									"moduleId": "CNTAS"
+								},
+								"maxRecords": null,
+								"name": "saldo",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_SALDOJHYXHXCDAB_106241",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../CNTAS/entities/EN_CUENTARZM_852.json#/attributes/AT67_TIPOCUET852"
+								},
+								"attributeValidations": [
+								],
+								"cacheDuration": 0,
+								"catalogName": "g1_cl_tipo_cuenta",
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_TIPOCUETA_22304"
+									},
+									"labelId": "LBL_CNTAS_TIPOCUETA_22304",
+									"moduleId": "CNTAS"
+								},
+								"maxRecords": null,
+								"minChars": null,
+								"name": "tipoCuenta",
+								"options": 0,
+								"order": 1,
+								"queryId": null,
+								"queryMemberText": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryMemberValue": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryModule": null,
+								"queryVersion": null,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"type": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "ComboBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TIPOCUENTAFTCJN_619241",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_CREARCUAT_66871"
+									},
+									"labelId": "LBL_CNTAS_CREARCUAT_66871",
+									"moduleId": "CNTAS"
+								},
+								"maxRecords": null,
+								"name": "VA_VABUTTONFVRNBCU_239241",
+								"options": 0,
+								"order": 3,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VABUTTONFVRNBCU_239241",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					},
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
 						"columnsNum": 1,
 						"componentStyle": null,
 						"customEvents": [
@@ -121,6 +300,8 @@
 							"query": {
 								"$ref": "../../../../CNTAS/ADMIN/queries/Q_CLIETNNT_ZN50.json#"
 							},
+							"queryId": "Q_CLIETNNT_ZN50",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
 							"queryViewId": "QV_FY50_WUN80",
@@ -306,7 +487,7 @@
 						],
 						"enabled": 4095,
 						"entity": {
-							"$ref": "../../../../CNTAS/entities/EN_1RYFYHYJA_254.json#"
+							"$ref": "../../../../CNTAS/entities/EN_FILTROCEI_982.json#"
 						},
 						"eventType": 0,
 						"groupId": "G_NUEVACUTNN_197241",
@@ -326,7 +507,7 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_1RYFYHYJA_254.json#/attributes/AT03_2DSRLIXG254"
+									"$ref": "../../../../CNTAS/entities/EN_FILTROCEI_982.json#/attributes/AT81_CEDULAZJ982"
 								},
 								"attributeValidations": [
 								],
@@ -337,7 +518,7 @@
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
-								"enabled": 8,
+								"enabled": 4095,
 								"format": "",
 								"include": 4095,
 								"isCustomized": false,
@@ -349,10 +530,10 @@
 									"moduleId": "CNTAS"
 								},
 								"maxRecords": null,
-								"name": "attribute2",
+								"name": "cedula",
 								"options": 0,
 								"order": 1,
-								"readOnly": 11,
+								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,
 								"sizeWidthComposite": null,
@@ -363,7 +544,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_2LZWBDSGXUVRWXO_913241",
+								"visualAttributeId": "VA_CEDULAPCQHBWUWB_213241",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -380,16 +561,17 @@
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
 								"enabled": 4095,
-								"entityQuery": null,
+								"entityQuery": "EN_CLIENTEIX_920",
 								"imageId": "fa fa-search",
 								"include": 4095,
 								"isCustomized": false,
 								"maxRecords": null,
-								"name": "VA_VAIMAGEBUTTONNN_458241",
+								"name": "VA_VAIMAGEBUTTONNN_740241",
 								"options": 0,
 								"order": 2,
-								"queryModule": null,
-								"queryVersion": null,
+								"queryId": "Q_CLIETNNT_ZN50",
+								"queryModule": "CNTAS",
+								"queryVersion": "1.0.0",
 								"responsiveLayouts": null,
 								"responsivity": false,
 								"sizeWidthComposite": null,
@@ -399,7 +581,7 @@
 									"userControlId": "ImageButton"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_VAIMAGEBUTTONNN_458241",
+								"visualAttributeId": "VA_VAIMAGEBUTTONNN_740241",
 								"width": null,
 								"widthComposite": "D"
 							}

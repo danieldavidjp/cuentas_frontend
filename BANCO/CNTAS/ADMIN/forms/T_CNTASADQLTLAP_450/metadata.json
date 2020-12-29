@@ -1,13 +1,19 @@
 {
 	"entities": [
 		{
-			"entityId": "EN_1RYFYHYJA_254",
+			"entityId": "EN_CLIENTEIX_920",
 			"isContextEntity": null,
 			"moduleId": "CNTAS",
 			"related": false
 		},
 		{
-			"entityId": "EN_CLIENTEIX_920",
+			"entityId": "EN_CUENTARZM_852",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		},
+		{
+			"entityId": "EN_FILTROCEI_982",
 			"isContextEntity": null,
 			"moduleId": "CNTAS",
 			"related": false
