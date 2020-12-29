@@ -3,7 +3,7 @@
 
 //Command1 (Button) 
 task.executeCommand.CM_TCNTASPI_AN7 = function(entities, executeCommandEventArgs) {
-    executeCommandEventArgs.commons.execServer = false;
+    executeCommandEventArgs.commons.execServer = true;
     
 //Open Modal
 var nav = executeCommandEventArgs.commons.api.navigation;

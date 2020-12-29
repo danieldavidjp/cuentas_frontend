@@ -11,6 +11,29 @@
 			"closeAsString": "F",
 			"commandType": 0,
 			"customEvents": [
+				{
+					"commandEventType": {
+						"availableExecutionType": 7,
+						"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+						"eventId": 10,
+						"name": "ExecuteCommand"
+					},
+					"customEventId": "CECM_010CM_TCNTASPI_AN7_468",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+						{
+							"actionArgs": [
+							],
+							"actionId": "CUSTOM",
+							"actionType": "CUSTOM"
+						}
+					],
+					"executionType": 7,
+					"filter": null,
+					"isEnabled": true
+				}
 			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
@@ -159,6 +182,8 @@
 							"query": {
 								"$ref": "../../../../CNTAS/ADMIN/queries/Q_CUENTAAT_QZ46.json#"
 							},
+							"queryId": "Q_CUENTAAT_QZ46",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
 							"queryViewId": "QV_AB46_FFN50",
@@ -418,7 +443,7 @@
 						],
 						"enabled": 4095,
 						"entity": {
-							"$ref": "../../../../CNTAS/entities/EN_2FKMCEOHP_241.json#"
+							"$ref": "../../../../CNTAS/entities/EN_DEPORETII_613.json#"
 						},
 						"eventType": 0,
 						"groupId": "G_DEPOSITOOO_954102",
@@ -438,7 +463,7 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_2FKMCEOHP_241.json#/attributes/AT02_1HKTKSPY241"
+									"$ref": "../../../../CNTAS/entities/EN_DEPORETII_613.json#/attributes/AT67_NUMEROEA613"
 								},
 								"attributeValidations": [
 								],
@@ -461,7 +486,7 @@
 									"moduleId": "CNTAS"
 								},
 								"maxRecords": null,
-								"name": "attribute1",
+								"name": "numeroCuenta",
 								"options": 0,
 								"order": 1,
 								"readOnly": 8,
@@ -475,7 +500,52 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_1RFQPBKSSHOGASF_630102",
+								"visualAttributeId": "VA_NUMEROCUENTAHND_952102",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../CNTAS/entities/EN_DEPORETII_613.json#/attributes/AT83_SALDOHJI613"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_VALORDWEW_99968"
+									},
+									"labelId": "LBL_CNTAS_VALORDWEW_99968",
+									"moduleId": "CNTAS"
+								},
+								"maxRecords": null,
+								"name": "saldo",
+								"options": 0,
+								"order": 3,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_SALDOQGXZZCGZQI_237102",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -488,6 +558,29 @@
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VAIMAGEBUTTONNN_548102_575",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											}
+										],
+										"executionType": 7,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
@@ -497,7 +590,7 @@
 								"include": 4095,
 								"isCustomized": false,
 								"maxRecords": null,
-								"name": "VA_VAIMAGEBUTTONNN_548102",
+								"name": "",
 								"options": 0,
 								"order": 2,
 								"queryModule": null,

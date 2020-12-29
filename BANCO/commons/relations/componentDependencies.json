@@ -9,6 +9,10 @@
 		"EN_CUENTARZM_852": {
 			"labels": [
 			]
+		},
+		"EN_DEPORETII_613": {
+			"labels": [
+			]
 		}
 	},
 	"Forms": {
@@ -52,9 +56,6 @@
 			"blis": [
 			],
 			"entities": {
-				"EN_2FKMCEOHP_241": [
-					"AT02_1HKTKSPY241"
-				],
 				"EN_CUENTARZM_852": [
 					"AT64_SALDOZTR852",
 					"AT67_TIPOCUET852",
@@ -62,6 +63,10 @@
 					"AT73_NOMBRENN852",
 					"AT75_NUMEROCN852",
 					"AT93_APELLIDE852"
+				],
+				"EN_DEPORETII_613": [
+					"AT67_NUMEROEA613",
+					"AT83_SALDOHJI613"
 				]
 			},
 			"externalEntities": {
@@ -72,7 +77,8 @@
 			],
 			"labels": [
 				"LBL_CNTAS_DEPOSITAA_17926",
-				"LBL_CNTAS_NUMEROCAU_30831"
+				"LBL_CNTAS_NUMEROCAU_30831",
+				"LBL_CNTAS_VALORDWEW_99968"
 			],
 			"queries": {
 				"Q_CUENTAAT_QZ46": [
