@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.ClienteQuery_Q_CLIETNNT_ZN50">
+        <implementation class="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.ClienteQuery_Q_CLIETNNT_ZN50"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteQuery"/>
+        </service>
+        <property name="query.id" type="String" value="Q_CLIETNNT_ZN50"/>
+        <property name="query.version" type="String" value="1.0.0"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.ClienteQuery_Q_CLIETNNT_ZN50"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.CuentaDestinoQuery_Q_CUENETNT_QR74">
+        <implementation class="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.CuentaDestinoQuery_Q_CUENETNT_QR74"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteQuery"/>
+        </service>
+        <property name="query.id" type="String" value="Q_CUENETNT_QR74"/>
+        <property name="query.version" type="String" value="1.0.0"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.CuentaDestinoQuery_Q_CUENETNT_QR74"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.CuentaQuery_Q_CUENTAAT_QZ46">
+        <implementation class="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.CuentaQuery_Q_CUENTAAT_QZ46"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteQuery"/>
+        </service>
+        <property name="query.id" type="String" value="Q_CUENTAAT_QZ46"/>
+        <property name="query.version" type="String" value="1.0.0"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.CuentaQuery_Q_CUENTAAT_QZ46"/>
+    </scr:component>
+</components>

@@ -156,13 +156,13 @@
 				"BLI7871_blis_sp_operaciones_consulta"
 			],
 			"entities": {
-				"EN_CUENTARZM_852": [
-					"AT64_SALDOZTR852",
-					"AT67_TIPOCUET852",
-					"AT68_CEDULAEL852",
-					"AT73_NOMBRENN852",
-					"AT75_NUMEROCN852",
-					"AT93_APELLIDE852"
+				"EN_CUENTADTN_360": [
+					"AT64_APELLIII360",
+					"AT73_CEDULAIC360",
+					"AT77_TIPOCUEA360",
+					"AT86_SALDORQA360",
+					"AT91_NUMERONT360",
+					"AT93_NOMBRETE360"
 				],
 				"EN_DEPORETII_613": [
 					"AT67_NUMEROEA613",
@@ -183,17 +183,15 @@
 			"queries": {
 				"Q_CUENETNT_QR74": [
 					"",
-					""
-				],
-				"Q_CUENTAAT_QZ46": [
 					"",
 					"",
-					"QM_CUENT6TA4T502_01",
-					"QM_CUENTAA4AT507_05",
-					"QM_CUENTAA64A176_04",
-					"QM_CUENTTZQQT279_06",
-					"QM_CUENTZAZQT267_03",
-					"QM_CUENTZQT4Q823_02"
+					"",
+					"QM_CUENEQTRN4461_05",
+					"QM_CUENEQTTRR624_02",
+					"QM_CUENERTRRT349_01",
+					"QM_CUENETR44T885_03",
+					"QM_CUENETT4TT658_04",
+					"QM_CUENETTQQT573_06"
 				]
 			},
 			"subForms": [
@@ -224,18 +222,21 @@
 		},
 		"T_CNTASYADRIJAP_499": {
 			"blis": [
+				"BLI1335_bli_sp_operaciones_retiro",
+				"BLI7871_blis_sp_operaciones_consulta"
 			],
 			"entities": {
-				"EN_CUENTARZM_852": [
-					"AT64_SALDOZTR852",
-					"AT67_TIPOCUET852",
-					"AT68_CEDULAEL852",
-					"AT73_NOMBRENN852",
-					"AT75_NUMEROCN852",
-					"AT93_APELLIDE852"
+				"EN_CUENTADTN_360": [
+					"AT64_APELLIII360",
+					"AT73_CEDULAIC360",
+					"AT77_TIPOCUEA360",
+					"AT86_SALDORQA360",
+					"AT91_NUMERONT360",
+					"AT93_NOMBRETE360"
 				],
-				"EN_FILTROCEI_982": [
-					"AT81_CEDULAZJ982"
+				"EN_DEPORETII_613": [
+					"AT67_NUMEROEA613",
+					"AT83_SALDOHJI613"
 				]
 			},
 			"externalEntities": {
@@ -245,16 +246,22 @@
 			"header": [
 			],
 			"labels": [
-				"LBL_CNTAS_CEDULAIKX_40864"
+				"LBL_CNTAS_MONTOLGQN_62191",
+				"LBL_CNTAS_NUMEROCAU_30831",
+				"LBL_CNTAS_RETIRARRV_18619"
 			],
 			"queries": {
-				"Q_CUENTAAT_QZ46": [
-					"QM_CUENT6TA4T502_01",
-					"QM_CUENTAA4AT507_05",
-					"QM_CUENTAA64A176_04",
-					"QM_CUENTTZQQT279_06",
-					"QM_CUENTZAZQT267_03",
-					"QM_CUENTZQT4Q823_02"
+				"Q_CUENETNT_QR74": [
+					"",
+					"",
+					"",
+					"",
+					"QM_CUENEQTRN4461_05",
+					"QM_CUENEQTTRR624_02",
+					"QM_CUENERTRRT349_01",
+					"QM_CUENETR44T885_03",
+					"QM_CUENETT4TT658_04",
+					"QM_CUENETTQQT573_06"
 				]
 			},
 			"subForms": [

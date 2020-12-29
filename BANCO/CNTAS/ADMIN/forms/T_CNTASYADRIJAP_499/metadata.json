@@ -1,13 +1,13 @@
 {
 	"entities": [
 		{
-			"entityId": "EN_CUENTARZM_852",
+			"entityId": "EN_CUENTADTN_360",
 			"isContextEntity": null,
 			"moduleId": "CNTAS",
 			"related": false
 		},
 		{
-			"entityId": "EN_FILTROCEI_982",
+			"entityId": "EN_DEPORETII_613",
 			"isContextEntity": null,
 			"moduleId": "CNTAS",
 			"related": false
@@ -16,7 +16,7 @@
 	"queries": [
 		{
 			"moduleId": "CNTAS",
-			"queryId": "Q_CUENTAAT_QZ46",
+			"queryId": "Q_CUENETNT_QR74",
 			"related": false,
 			"subModuleId": "ADMIN"
 		}

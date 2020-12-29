@@ -1,7 +1,7 @@
 {
 	"entities": [
 		{
-			"entityId": "EN_CUENTARZM_852",
+			"entityId": "EN_CUENTADTN_360",
 			"isContextEntity": null,
 			"moduleId": "CNTAS",
 			"related": false
@@ -17,12 +17,6 @@
 		{
 			"moduleId": "CNTAS",
 			"queryId": "Q_CUENETNT_QR74",
-			"related": false,
-			"subModuleId": "ADMIN"
-		},
-		{
-			"moduleId": "CNTAS",
-			"queryId": "Q_CUENTAAT_QZ46",
 			"related": false,
 			"subModuleId": "ADMIN"
 		}

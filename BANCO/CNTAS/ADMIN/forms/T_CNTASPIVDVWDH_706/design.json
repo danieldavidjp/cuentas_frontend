@@ -33,7 +33,8 @@
 							"actionArgs": [
 							],
 							"actionId": "BLI7762_bli_sp_operaciones_deposito",
-							"actionType": "BLI"
+							"actionType": "BLI",
+							"controlId": "CM_TCNTASPI_AN7"
 						}
 					],
 					"executionType": 7,
@@ -98,6 +99,23 @@
 			"columnsNum": 1,
 			"componentStyle": null,
 			"customEvents": [
+				{
+					"customEventId": "CEVC_008T_CNTASPIVDVWDH_706_272",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+					],
+					"executionType": 1,
+					"filter": null,
+					"isEnabled": true,
+					"viewContainerEventType": {
+						"availableExecutionType": 1,
+						"description": "Se ejecuta antes de renderizar un ViewContainer, permite realizar personalizaciones visuales",
+						"eventId": 8,
+						"name": "Render"
+					}
+				}
 			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
@@ -125,9 +143,9 @@
 						"componentStyle": null,
 						"customEvents": [
 						],
-						"enabled": 4095,
+						"enabled": 11,
 						"entity": {
-							"$ref": "../../../../CNTAS/entities/EN_CUENTARZM_852.json#"
+							"$ref": "../../../../CNTAS/entities/EN_CUENTADTN_360.json#"
 						},
 						"eventType": 0,
 						"groupId": "G_DEPOSITOOO_400102",
@@ -162,18 +180,18 @@
 							"editCommandEnabledStr": "F",
 							"editMode": "0",
 							"entityName": {
-								"$ref": "../../../../CNTAS/entities/EN_CUENTARZM_852.json#/name"
+								"$ref": "../../../../CNTAS/entities/EN_CUENTADTN_360.json#/name"
 							},
 							"hasDetail": false,
 							"hasDetailString": "F",
 							"height": null,
 							"includeQueryMembers": [
-								"AT75_NUMEROCN852",
-								"AT93_APELLIDE852",
-								"AT73_NOMBRENN852",
-								"AT67_TIPOCUET852",
-								"AT68_CEDULAEL852",
-								"AT64_SALDOZTR852"
+								"AT86_SALDORQA360",
+								"AT64_APELLIII360",
+								"AT91_NUMERONT360",
+								"AT93_NOMBRETE360",
+								"AT73_CEDULAIC360",
+								"AT77_TIPOCUEA360"
 							],
 							"insertCommandEnabled": false,
 							"insertCommandEnabledStr": "F",
@@ -182,17 +200,15 @@
 							"modeSelection": "None",
 							"moduleIdDialog": null,
 							"multiSelectEnabledStr": "F",
-							"name": "QV_AB46_FFN50",
+							"name": "QV_FJ74_SIF81",
 							"options": 0,
 							"pageSize": null,
 							"query": {
-								"$ref": "../../../../CNTAS/ADMIN/queries/Q_CUENTAAT_QZ46.json#"
+								"$ref": "../../../../CNTAS/ADMIN/queries/Q_CUENETNT_QR74.json#"
 							},
-							"queryId": "Q_CUENTAAT_QZ46",
-							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
-							"queryViewId": "QV_AB46_FFN50",
+							"queryViewId": "QV_FJ74_SIF81",
 							"queryViewType": "Grid",
 							"rowCommandAppearance": 0,
 							"style": null,
@@ -210,54 +226,17 @@
 							},
 							"viewContainerIdDialog": null
 						},
-						"queryViewId": "QV_AB46_FFN50",
+						"queryViewId": "QV_FJ74_SIF81",
 						"responsiveLayouts": null,
 						"responsivity": false,
 						"style": null,
-						"visible": 4095,
+						"visible": 11,
 						"visualAttributes": [
 							{
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_CUENTARZM_852.json#/attributes/AT93_APELLIDE852"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": true,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "apellidoCliente",
-								"options": 0,
-								"order": 2,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXALM_341102",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_CUENTARZM_852.json#/attributes/AT75_NUMEROCN852"
+									"$ref": "../../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT91_NUMERONT360"
 								},
 								"attributeValidations": [
 								],
@@ -274,7 +253,7 @@
 								"maxRecords": null,
 								"name": "numeroCuenta",
 								"options": 0,
-								"order": 1,
+								"order": 4,
 								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,
@@ -286,7 +265,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXBXF_668102",
+								"visualAttributeId": "VA_TEXTINPUTBOXBFJ_437102",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -294,7 +273,7 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_CUENTARZM_852.json#/attributes/AT67_TIPOCUET852"
+									"$ref": "../../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT64_APELLIII360"
 								},
 								"attributeValidations": [
 								],
@@ -309,9 +288,9 @@
 								"include": 4095,
 								"isCustomized": false,
 								"maxRecords": null,
-								"name": "tipoCuenta",
+								"name": "apellidoCliente",
 								"options": 0,
-								"order": 4,
+								"order": 3,
 								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,
@@ -323,7 +302,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXIPQ_233102",
+								"visualAttributeId": "VA_TEXTINPUTBOXDUU_722102",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -331,7 +310,7 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_CUENTARZM_852.json#/attributes/AT73_NOMBRENN852"
+									"$ref": "../../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT93_NOMBRETE360"
 								},
 								"attributeValidations": [
 								],
@@ -348,7 +327,7 @@
 								"maxRecords": null,
 								"name": "nombreCliente",
 								"options": 0,
-								"order": 3,
+								"order": 2,
 								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,
@@ -360,7 +339,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXLLT_913102",
+								"visualAttributeId": "VA_TEXTINPUTBOXHRW_795102",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -368,44 +347,7 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_CUENTARZM_852.json#/attributes/AT68_CEDULAEL852"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": true,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "cedulaCliente",
-								"options": 0,
-								"order": 5,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXOWF_699102",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_CUENTARZM_852.json#/attributes/AT64_SALDOZTR852"
+									"$ref": "../../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT86_SALDORQA360"
 								},
 								"attributeValidations": [
 								],
@@ -422,6 +364,43 @@
 								"maxRecords": null,
 								"name": "saldo",
 								"options": 0,
+								"order": 5,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXMOX_898102",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT77_TIPOCUEA360"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "tipoCuenta",
+								"options": 0,
 								"order": 6,
 								"readOnly": 8,
 								"responsiveLayouts": null,
@@ -434,7 +413,44 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXUBN_399102",
+								"visualAttributeId": "VA_TEXTINPUTBOXUJZ_661102",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT73_CEDULAIC360"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "cedulaCliente",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXWRW_131102",
 								"width": null,
 								"widthComposite": "D"
 							}
