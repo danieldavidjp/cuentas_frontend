@@ -14,5 +14,47 @@
 		],
 		"entityName": "Cliente",
 		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "tipoCuenta",
+		"controlId": "VA_TIPOCUENTAFTCJN_619241",
+		"controlName": "tipoCuenta",
+		"controlType": "ComboBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONFVRNBCU_239241",
+		"controlName": "VA_VABUTTONFVRNBCU_239241",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_740241",
+		"controlName": "VA_VAIMAGEBUTTONNN_740241",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "FiltroCliente",
+		"eventsType": "visualAttributeEventType"
 	}
 ]
