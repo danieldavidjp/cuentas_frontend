@@ -21,7 +21,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 0,
 					"moduleId": "CNTAS",
 					"name": "FormDeposito",
 					"subModuleId": "ADMIN",
@@ -29,7 +29,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 0,
 					"moduleId": "CNTAS",
 					"name": "FormRetiro",
 					"subModuleId": "ADMIN",
