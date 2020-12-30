@@ -14,5 +14,61 @@
 		],
 		"entityName": "Cliente",
 		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "tipoCuenta",
+		"controlId": "VA_TIPOCUENTAFTCJN_619241",
+		"controlName": "tipoCuenta",
+		"controlType": "ComboBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONFVRNBCU_239241",
+		"controlName": "VA_VABUTTONFVRNBCU_239241",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONSIBJUHK_359241",
+		"controlName": "VA_VABUTTONSIBJUHK_359241",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_NUEVACUENT_340450",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "initData",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]
