@@ -100,7 +100,7 @@
 			"componentStyle": null,
 			"customEvents": [
 				{
-					"customEventId": "CEVC_008T_CNTASYADRIJAP_499_226",
+					"customEventId": "CEVC_008T_CNTASYADRIJAP_499_972",
 					"customizationLayer": 0,
 					"customizationLayerDescription": "ECU",
 					"enabled": "T",
@@ -143,7 +143,7 @@
 						"componentStyle": null,
 						"customEvents": [
 						],
-						"enabled": null,
+						"enabled": 11,
 						"entity": {
 							"$ref": "../../../../CNTAS/entities/EN_CUENTADTN_360.json#"
 						},
@@ -206,6 +206,8 @@
 							"query": {
 								"$ref": "../../../../CNTAS/ADMIN/queries/Q_CUENETNT_QR74.json#"
 							},
+							"queryId": "Q_CUENETNT_QR74",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
 							"queryViewId": "QV_IM74_SDK14",
@@ -230,7 +232,7 @@
 						"responsiveLayouts": null,
 						"responsivity": false,
 						"style": null,
-						"visible": null,
+						"visible": 11,
 						"visualAttributes": [
 							{
 								"aggregate": null,
@@ -463,7 +465,7 @@
 						"componentStyle": null,
 						"customEvents": [
 						],
-						"enabled": null,
+						"enabled": 11,
 						"entity": {
 							"$ref": "../../../../CNTAS/entities/EN_DEPORETII_613.json#"
 						},
@@ -479,7 +481,7 @@
 						"responsiveLayouts": null,
 						"responsivity": false,
 						"style": null,
-						"visible": null,
+						"visible": 11,
 						"visualAttributes": [
 							{
 								"aggregate": null,

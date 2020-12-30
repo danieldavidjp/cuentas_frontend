@@ -206,6 +206,8 @@
 							"query": {
 								"$ref": "../../../../CNTAS/ADMIN/queries/Q_CUENETNT_QR74.json#"
 							},
+							"queryId": "Q_CUENETNT_QR74",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
 							"queryViewId": "QV_FJ74_SIF81",
