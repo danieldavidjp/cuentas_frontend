@@ -7,7 +7,7 @@
 			"related": false
 		},
 		{
-			"entityId": "EN_CUENTARZM_852",
+			"entityId": "EN_CUENTAOGE_231",
 			"isContextEntity": null,
 			"moduleId": "CNTAS",
 			"related": false
@@ -28,7 +28,7 @@
 		},
 		{
 			"moduleId": "CNTAS",
-			"queryId": "Q_CUENTAAT_QZ46",
+			"queryId": "Q_CUENREAG_AS19",
 			"related": false,
 			"subModuleId": "ADMIN"
 		}

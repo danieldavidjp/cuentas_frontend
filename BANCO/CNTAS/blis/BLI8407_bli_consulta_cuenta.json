@@ -12,7 +12,7 @@
 			"format": "",
 			"name": "@i_cuenta",
 			"type": "CUSTOM",
-			"value": "cuenta"
+			"value": "cuentaO"
 		},
 		{
 			"attributeId": "",
@@ -37,17 +37,17 @@
 			"value": "25190"
 		}
 	],
-	"name": "BLIS_sp_operaciones_consulta",
+	"name": "BLI_consulta_cuenta",
 	"outputEntity": [
 	],
 	"outputParameters": [
 	],
-	"patternId": "BLI7871_blis_sp_operaciones_consulta",
-	"patternName": "BLIS_sp_operaciones_consulta",
+	"patternId": "BLI8407_bli_consulta_cuenta",
+	"patternName": "BLI_consulta_cuenta",
 	"patternType": "Bli",
 	"queries": [
 		{
-			"_idQuery": "45491e8a-5f9a-401c-b21f-92e4feca5535",
+			"_idQuery": "35b3c5f5-6884-4283-b39e-11eb4c4eee5b",
 			"isMapReturn": true,
 			"isReturn": true,
 			"isSingleResult": false,
@@ -57,53 +57,53 @@
 	],
 	"resultSets": [
 		{
-			"_idQuery": "45491e8a-5f9a-401c-b21f-92e4feca5535",
+			"_idQuery": "35b3c5f5-6884-4283-b39e-11eb4c4eee5b",
 			"columns": [
 				{
-					"attributeId": "AT91_NUMERONT360",
-					"entityId": "EN_CUENTADTN_360",
+					"attributeId": "AT69_CEDULATE231",
+					"entityId": "EN_CUENTAOGE_231",
 					"format": "",
-					"name": "numeroCuenta",
+					"name": "cedula",
 					"position": 1,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT64_APELLIII360",
-					"entityId": "EN_CUENTADTN_360",
+					"attributeId": "AT43_NOMBREIE231",
+					"entityId": "EN_CUENTAOGE_231",
 					"format": "",
-					"name": " apellidoCliente",
+					"name": "nombreCliente",
 					"position": 2,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT93_NOMBRETE360",
-					"entityId": "EN_CUENTADTN_360",
+					"attributeId": "AT21_APELLINC231",
+					"entityId": "EN_CUENTAOGE_231",
 					"format": "",
-					"name": " nombreCliente",
+					"name": "apellidoCliente",
 					"position": 3,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT77_TIPOCUEA360",
-					"entityId": "EN_CUENTADTN_360",
+					"attributeId": "AT75_NUMEROEN231",
+					"entityId": "EN_CUENTAOGE_231",
 					"format": "",
-					"name": " tipoCuenta",
+					"name": "numeroCuenta",
 					"position": 4,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT73_CEDULAIC360",
-					"entityId": "EN_CUENTADTN_360",
+					"attributeId": "AT30_SALDONZA231",
+					"entityId": "EN_CUENTAOGE_231",
 					"format": "",
-					"name": " cedula",
+					"name": "saldo",
 					"position": 5,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT86_SALDORQA360",
-					"entityId": "EN_CUENTADTN_360",
+					"attributeId": "AT73_TIPOCUAN231",
+					"entityId": "EN_CUENTAOGE_231",
 					"format": "",
-					"name": " saldo",
+					"name": "tipoCuenta",
 					"position": 6,
 					"type": "ATTRIBUTE"
 				}
@@ -114,12 +114,12 @@
 	],
 	"returnEntity": [
 		{
-			"entityId": "EN_CUENTADTN_360",
+			"entityId": "EN_CUENTAOGE_231",
 			"module": {
 				"moduleId": "CNTAS",
 				"moduleName": "CUENTAS"
 			},
-			"name": "CuentaDestino"
+			"name": "CuentaOrigen"
 		}
 	],
 	"serverName": "CENTRAL",

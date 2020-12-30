@@ -1,7 +1,7 @@
 {
 	"customEvents": [
 		{
-			"customEventId": "CEQY_130_Q_CUENETNT_QR74_260",
+			"customEventId": "CEQY_130_Q_CUENREAG_AS19_922",
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
 			"enabled": "T",
@@ -9,7 +9,7 @@
 				{
 					"actionArgs": [
 					],
-					"actionId": "BLI8023_bli_consulta_cuentadestino",
+					"actionId": "BLI8407_bli_consulta_cuenta",
 					"actionType": "BLI"
 				},
 				{
@@ -32,85 +32,25 @@
 	"customizationLayerDescription": "ECU",
 	"hasEvents": true,
 	"id": {
-		"queryId": "Q_CUENETNT_QR74",
+		"queryId": "Q_CUENREAG_AS19",
 		"version": "1.0.0"
 	},
 	"isAutomatic": false,
 	"isImported": false,
-	"mainEntityId": "EN_CUENTADTN_360",
+	"mainEntityId": "EN_CUENTAOGE_231",
 	"mainEntityModule": "CNTAS",
 	"mainEntityName": {
-		"$ref": "../../../CNTAS/relations/componentKeys.json#/Entities/EN_CUENTADTN_360/name"
+		"$ref": "../../../CNTAS/relations/componentKeys.json#/Entities/EN_CUENTAOGE_231/name"
 	},
 	"mainEntityVersion": "1.0.0",
 	"name": {
-		"$ref": "../../../CNTAS/relations/componentKeys.json#/ADMIN/Queries/Q_CUENETNT_QR74/name"
+		"$ref": "../../../CNTAS/relations/componentKeys.json#/ADMIN/Queries/Q_CUENREAG_AS19/name"
 	},
 	"queryMembers": [
 		{
-			"alias": "saldo",
+			"alias": "tipoCuenta",
 			"attribute": {
-				"$ref": "../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT86_SALDORQA360"
-			},
-			"customizationLayer": "",
-			"customizationLayerDescription": "",
-			"defaultValue": null,
-			"defaultValueDataType": null,
-			"function": null,
-			"operator": null,
-			"order": 1,
-			"orderBy": null,
-			"orderByDirection": null,
-			"queryMemberId": "QM_CUENEQTRN4461_05",
-			"select": true,
-			"selectStr": "T",
-			"where": false,
-			"whereStr": "F"
-		},
-		{
-			"alias": "apellidoCliente",
-			"attribute": {
-				"$ref": "../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT64_APELLIII360"
-			},
-			"customizationLayer": "",
-			"customizationLayerDescription": "",
-			"defaultValue": null,
-			"defaultValueDataType": null,
-			"function": null,
-			"operator": null,
-			"order": 2,
-			"orderBy": null,
-			"orderByDirection": null,
-			"queryMemberId": "QM_CUENEQTTRR624_02",
-			"select": true,
-			"selectStr": "T",
-			"where": false,
-			"whereStr": "F"
-		},
-		{
-			"alias": "numeroCuenta",
-			"attribute": {
-				"$ref": "../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT91_NUMERONT360"
-			},
-			"customizationLayer": "",
-			"customizationLayerDescription": "",
-			"defaultValue": null,
-			"defaultValueDataType": null,
-			"function": null,
-			"operator": null,
-			"order": 3,
-			"orderBy": null,
-			"orderByDirection": null,
-			"queryMemberId": "QM_CUENERTRRT349_01",
-			"select": true,
-			"selectStr": "T",
-			"where": false,
-			"whereStr": "F"
-		},
-		{
-			"alias": "nombreCliente",
-			"attribute": {
-				"$ref": "../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT93_NOMBRETE360"
+				"$ref": "../../../CNTAS/entities/EN_CUENTAOGE_231.json#/attributes/AT73_TIPOCUAN231"
 			},
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
@@ -121,16 +61,16 @@
 			"order": 4,
 			"orderBy": null,
 			"orderByDirection": null,
-			"queryMemberId": "QM_CUENETR44T885_03",
+			"queryMemberId": "QM_CUENR11AA1822_05",
 			"select": true,
 			"selectStr": "T",
 			"where": false,
 			"whereStr": "F"
 		},
 		{
-			"alias": "cedulaCliente",
+			"alias": "apellidoCliente",
 			"attribute": {
-				"$ref": "../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT73_CEDULAIC360"
+				"$ref": "../../../CNTAS/entities/EN_CUENTAOGE_231.json#/attributes/AT21_APELLINC231"
 			},
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
@@ -138,19 +78,19 @@
 			"defaultValueDataType": null,
 			"function": null,
 			"operator": null,
-			"order": 5,
+			"order": 2,
 			"orderBy": null,
 			"orderByDirection": null,
-			"queryMemberId": "QM_CUENETT4TT658_04",
+			"queryMemberId": "QM_CUENR1GG99502_03",
 			"select": true,
 			"selectStr": "T",
 			"where": false,
 			"whereStr": "F"
 		},
 		{
-			"alias": "tipoCuenta",
+			"alias": "saldo",
 			"attribute": {
-				"$ref": "../../../CNTAS/entities/EN_CUENTADTN_360.json#/attributes/AT77_TIPOCUEA360"
+				"$ref": "../../../CNTAS/entities/EN_CUENTAOGE_231.json#/attributes/AT30_SALDONZA231"
 			},
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
@@ -161,7 +101,67 @@
 			"order": 6,
 			"orderBy": null,
 			"orderByDirection": null,
-			"queryMemberId": "QM_CUENETTQQT573_06",
+			"queryMemberId": "QM_CUENR1GS99936_06",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "cedulaCliente",
+			"attribute": {
+				"$ref": "../../../CNTAS/entities/EN_CUENTAOGE_231.json#/attributes/AT69_CEDULATE231"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 5,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CUENR9E1G9794_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombreCliente",
+			"attribute": {
+				"$ref": "../../../CNTAS/entities/EN_CUENTAOGE_231.json#/attributes/AT43_NOMBREIE231"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CUENR9SSSG806_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "numeroCuenta",
+			"attribute": {
+				"$ref": "../../../CNTAS/entities/EN_CUENTAOGE_231.json#/attributes/AT75_NUMEROEN231"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CUENREAS1G316_01",
 			"select": true,
 			"selectStr": "T",
 			"where": false,

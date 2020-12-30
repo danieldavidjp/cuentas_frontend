@@ -1,5 +1,5 @@
 /*
- * Archivo: CuentaQuery_Q_CUENTAAT_QZ46.java
+ * Archivo: CuentaOrigenQuery_Q_CUENREAG_AS19.java
  *
  * Esta aplicacion es parte de los paquetes bancarios propiedad de COBISCORP.
  * Su uso no autorizado queda expresamente prohibido asi como cualquier
@@ -28,24 +28,24 @@ import com.cobiscorp.designer.api.managers.DesignerManagerException;
 @Component
 @Service({ IExecuteQuery.class })
 @Properties(value={
-		@Property(name = "query.id", value = "Q_CUENTAAT_QZ46"),
+		@Property(name = "query.id", value = "Q_CUENREAG_AS19"),
 		@Property(name = "query.version", value = "1.0.0")})
 
-public class CuentaQuery_Q_CUENTAAT_QZ46 implements IExecuteQuery {
+public class CuentaOrigenQuery_Q_CUENREAG_AS19 implements IExecuteQuery {
 	/**
 	 * Instancia de Logger
 	 */
-	private static final ILogger logger = LogFactory.getLogger(CuentaQuery_Q_CUENTAAT_QZ46.class);
+	private static final ILogger logger = LogFactory.getLogger(CuentaOrigenQuery_Q_CUENREAG_AS19.class);
 
 	@Override
 	public List<?> executeDataEvent(DynamicRequest arg0, IExecuteQueryEventArgs arg1) {
 		// TODO Auto-generated method stub
 		try {
 			if (logger.isDebugEnabled()) {
-				logger.logDebug("Start executeDataEvent in CuentaQuery_Q_CUENTAAT_QZ46");
+				logger.logDebug("Start executeDataEvent in CuentaOrigenQuery_Q_CUENREAG_AS19");
 			}
-            if (arg0.getEntityList("Cuenta") != null)
-                return arg0.getEntityList("Cuenta").getDataList();
+			if (arg0.getEntityList("CuentaOrigen") != null)
+                return arg0.getEntityList("CuentaOrigen").getDataList();
 		} catch (Exception ex) {
 			DesignerManagerException.handleException(arg1.getMessageManager(), ex, logger);
 		}

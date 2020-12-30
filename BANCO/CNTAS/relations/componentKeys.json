@@ -26,6 +26,9 @@
 			"Q_CUENETNT_QR74": {
 				"name": "CuentaDestinoQuery"
 			},
+			"Q_CUENREAG_AS19": {
+				"name": "CuentaOrigenQuery"
+			},
 			"Q_CUENTAAT_QZ46": {
 				"name": "CuentaQuery"
 			}
@@ -45,6 +48,9 @@
 		},
 		"EN_CUENTADTN_360": {
 			"name": "CuentaDestino"
+		},
+		"EN_CUENTAOGE_231": {
+			"name": "CuentaOrigen"
 		},
 		"EN_CUENTARZM_852": {
 			"name": "Cuenta"

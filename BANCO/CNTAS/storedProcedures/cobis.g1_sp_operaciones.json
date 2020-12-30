@@ -33,16 +33,16 @@
 		],
 		"queries": [
 			{
-				"_idQuery": "45491e8a-5f9a-401c-b21f-92e4feca5535",
+				"_idQuery": "35b3c5f5-6884-4283-b39e-11eb4c4eee5b",
 				"columns": [
+					"cedula",
+					"nombreCliente",
+					"apellidoCliente",
 					"numeroCuenta",
-					" apellidoCliente",
-					" nombreCliente",
-					" tipoCuenta",
-					" cedula",
-					" saldo"
+					"saldo",
+					"tipoCuenta"
 				],
-				"editMode": true,
+				"editMode": false,
 				"queryText": "SELECT"
 			}
 		],
