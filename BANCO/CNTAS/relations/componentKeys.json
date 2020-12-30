@@ -13,7 +13,7 @@
 				"name": "FormDeposito"
 			},
 			"T_CNTASRMFVUVGE_622": {
-				"name": "formDepoRetiro"
+				"name": "formTransaccion"
 			},
 			"T_CNTASYADRIJAP_499": {
 				"name": "FormRetiro"
@@ -28,6 +28,9 @@
 			},
 			"Q_CUENTAAT_QZ46": {
 				"name": "CuentaQuery"
+			},
+			"Q_TRANIEIC_BZ84": {
+				"name": "TransaccionesQuery"
 			}
 		},
 		"SubForms": {
@@ -54,6 +57,9 @@
 		},
 		"EN_FILTROCEI_982": {
 			"name": "FiltroCliente"
+		},
+		"EN_TRANSACSI_514": {
+			"name": "Transacciones"
 		}
 	}
 }

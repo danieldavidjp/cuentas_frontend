@@ -21,6 +21,10 @@
 		"EN_FILTROCEI_982": {
 			"labels": [
 			]
+		},
+		"EN_TRANSACSI_514": {
+			"labels": [
+			]
 		}
 	},
 	"Forms": {
@@ -187,10 +191,18 @@
 		},
 		"T_CNTASRMFVUVGE_622": {
 			"blis": [
+				"BLI2634_bli_sp_operaciones_transaccion"
 			],
 			"entities": {
-				"EN_CUENTARZM_852": [
-					"AT64_SALDOZTR852"
+				"EN_DEPORETII_613": [
+					"AT67_NUMEROEA613"
+				],
+				"EN_TRANSACSI_514": [
+					"AT45_TIPOCUNE514",
+					"AT56_TIPOTRAC514",
+					"AT72_IDTRANIN514",
+					"AT81_NUMEROAA514",
+					"AT90_FECHATOA514"
 				]
 			},
 			"externalEntities": {
@@ -200,10 +212,26 @@
 			"header": [
 			],
 			"labels": [
-				"LBL_CNTAS_DEPOSITAA_17926",
-				"LBL_CNTAS_NUEVOSAOO_49940"
+				"LBL_CNTAS_BUSCARUKH_68596",
+				"LBL_CNTAS_FECHATRIC_20048",
+				"LBL_CNTAS_IDTRANSIN_21363",
+				"LBL_CNTAS_NUMEROCAU_30831",
+				"LBL_CNTAS_NUMEROCUT_27120",
+				"LBL_CNTAS_TIPOCUETA_59435",
+				"LBL_CNTAS_TIPOTRAIO_38063"
 			],
 			"queries": {
+				"Q_TRANIEIC_BZ84": [
+					"",
+					"",
+					"",
+					"",
+					"QM_TRANI8BB8E396_03",
+					"QM_TRANIB84IE573_02",
+					"QM_TRANIECIB8763_05",
+					"QM_TRANIEZZCB184_01",
+					"QM_TRANIZ44IZ237_04"
+				]
 			},
 			"subForms": [
 			]
@@ -266,6 +294,10 @@
 			]
 		},
 		"Q_CUENTAAT_QZ46": {
+			"labels": [
+			]
+		},
+		"Q_TRANIEIC_BZ84": {
 			"labels": [
 			]
 		}

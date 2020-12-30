@@ -7,32 +7,50 @@
 				{
 					"generated": 2,
 					"moduleId": "CNTAS",
+					"moduleName": "CUENTAS",
 					"name": "formNuevaCuenta",
 					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
 					"taskId": "T_CNTASADQLTLAP_450",
 					"type": "Simple form"
 				},
 				{
 					"generated": 2,
 					"moduleId": "CNTAS",
+					"moduleName": "CUENTAS",
 					"name": "FormTransferencia",
 					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
 					"taskId": "T_CNTASIQOTREKI_837",
 					"type": "Simple form"
 				},
 				{
 					"generated": 2,
 					"moduleId": "CNTAS",
+					"moduleName": "CUENTAS",
 					"name": "FormDeposito",
 					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
 					"taskId": "T_CNTASPIVDVWDH_706",
 					"type": "Simple form"
 				},
 				{
 					"generated": 2,
 					"moduleId": "CNTAS",
+					"moduleName": "CUENTAS",
+					"name": "formTransaccion",
+					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
+					"taskId": "T_CNTASRMFVUVGE_622",
+					"type": "Simple form"
+				},
+				{
+					"generated": 2,
+					"moduleId": "CNTAS",
+					"moduleName": "CUENTAS",
 					"name": "FormRetiro",
 					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
 					"taskId": "T_CNTASYADRIJAP_499",
 					"type": "Simple form"
 				}

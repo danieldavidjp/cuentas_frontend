@@ -25,6 +25,23 @@
 				],
 				"returnEntity": [
 					{
+						"entityId": "EN_TRANSACSI_514",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI2634_bli_sp_operaciones_transaccion",
+			"nameBli": "BLI_sp_operaciones_transaccion"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
 						"entityId": "EN_CLIENTEIX_920",
 						"moduleId": "CNTAS",
 						"related": false
