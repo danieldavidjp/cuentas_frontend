@@ -13,6 +13,13 @@
 			}
 		}
 	},
+	"EN_CUENTAOGE_231": {
+		"queries": {
+			"Q_CUENREAG_AS19": {
+				"$ref": "../ADMIN/queries/Q_CUENREAG_AS19.json#"
+			}
+		}
+	},
 	"EN_CUENTARZM_852": {
 		"queries": {
 			"Q_CUENTAAT_QZ46": {

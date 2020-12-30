@@ -44,9 +44,8 @@ public class CuentaDestinoQuery_Q_CUENETNT_QR74 implements IExecuteQuery {
 			if (logger.isDebugEnabled()) {
 				logger.logDebug("Start executeDataEvent in CuentaDestinoQuery_Q_CUENETNT_QR74");
 			}
-			if (arg0.getEntityList("Cuenta") != null){
-					return arg0.getEntityList("Cuenta").getDataList();
-				}
+            if (arg0.getEntityList("CuentaDestino") != null)
+                return arg0.getEntityList("CuentaDestino").getDataList();
 		} catch (Exception ex) {
 			DesignerManagerException.handleException(arg1.getMessageManager(), ex, logger);
 		}

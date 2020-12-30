@@ -31,7 +31,7 @@
 			"columnName": null,
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
-			"dataType": "Double",
+			"dataType": "String",
 			"entityPk": {
 				"entityId": "EN_CUENTARZM_852",
 				"version": "1.0.0"

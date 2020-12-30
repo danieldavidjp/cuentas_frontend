@@ -37,6 +37,23 @@
 		{
 			"entities": {
 				"inputEntity": [
+					{
+						"entityId": "EN_DEPORETII_613",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI3604_bli_sp_operacion_tranferencia",
+			"nameBli": "BLI_sp_operacion_tranferencia"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 				],
 				"outputEntity": [
 				],
@@ -118,6 +135,40 @@
 			},
 			"idBli": "BLI8882_bli_insertar_cuenta_corriente",
 			"nameBli": "BLI_insertar_cuenta_corriente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CUENTADTN_360",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI8023_bli_consulta_cuentadestino",
+			"nameBli": "BLI_Consulta_cuentaDestino"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CUENTAOGE_231",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI8407_bli_consulta_cuenta",
+			"nameBli": "BLI_consulta_cuenta"
 		}
 	]
 }

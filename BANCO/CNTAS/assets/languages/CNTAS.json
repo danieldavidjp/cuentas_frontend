@@ -2,6 +2,7 @@
 	"CNTAS": {
 		"LBL": {
 			"LBL_CNTAS_BUSCARUKH_68596": "Buscar",
+			"LBL_CNTAS_CANTIDART_11427": "Cantidad a Transferir",
 			"LBL_CNTAS_CEDULAIKX_40864": "Cedula",
 			"LBL_CNTAS_CEDULAWXJ_29913": "Cedula",
 			"LBL_CNTAS_CREARCUAT_66871": "Crear Cuenta",
@@ -23,6 +24,7 @@
 			"LBL_CNTAS_TIPOCUETA_59435": "Tipo de Cuenta",
 			"LBL_CNTAS_TIPOTRAIO_38063": "Tipo de Transaccion",
 			"LBL_CNTAS_TRANSACIS_83525": "Transacciones",
+			"LBL_CNTAS_TRANSFERR_17630": "transferir",
 			"LBL_CNTAS_VALORDWEW_99968": "Valor"
 		},
 		"MSG": {

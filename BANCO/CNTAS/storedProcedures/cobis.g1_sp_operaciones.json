@@ -29,73 +29,14 @@
 				"dataType": "int",
 				"direction": "in",
 				"name": "@t_trn"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_tipoCuenta"
 			}
 		],
 		"queries": [
-			{
-				"_idQuery": "7fc898c4-5e0f-451f-bec0-291a2239287d",
-				"columns": [
-					"{0}",
-					"{1}",
-					"{2}",
-					"{3}",
-					"{4}",
-					"tipo_cuenta"
-				],
-				"editMode": true,
-				"queryText": "SELECT\r\n\t\t\t\tcl_cedula,\r\n\t\t\t\tcl_nombre,\r\n\t\t\t\tcl_apellido,\r\n\t\t\t\tca_banco,\r\n\t\t\t\tca_saldo,\r\n\t\t\t\t\u0027A\u0027 AS tipo_cuenta\r\n\t\t\tFROM"
-			},
-			{
-				"_idQuery": "6a76a6a9-7012-4e0c-98a6-0071aa89cea9",
-				"columns": [
-					"{0}",
-					"{1}",
-					"{2}",
-					"{3}",
-					"{4}",
-					"tipo_cuenta"
-				],
-				"editMode": true,
-				"queryText": "SELECT\r\n\t\t\t\tcl_cedula,\r\n\t\t\t\tcl_nombre,\r\n\t\t\t\tcl_apellido,\r\n\t\t\t\tcc_banco,\r\n\t\t\t\tcc_saldo,\r\n\t\t\t\t\u0027C\u0027 AS tipo_cuenta\r\n\t\t\tFROM"
-			},
-			{
-				"_idQuery": "45491e8a-5f9a-401c-b21f-92e4feca5535",
-				"columns": [
-					"numeroCuenta",
-					" apellidoCliente",
-					" nombreCliente",
-					" tipoCuenta",
-					" cedula",
-					" saldo"
-				],
-				"editMode": true,
-				"queryText": "SELECT"
-			},
-			{
-				"_idQuery": "f2f8db6d-29f2-4045-9c84-9c075a9708f0",
-				"columns": [
-					"cedula",
-					" nombreCliente",
-					" apellidoCliente",
-					" numeroCuenta",
-					" saldo",
-					" tipoCuenta"
-				],
-				"editMode": true,
-				"queryText": "SELECT"
-			},
-			{
-				"_idQuery": "36302b48-6393-4205-8779-9cb87c2b8622",
-				"columns": [
-					"idtransaccion",
-					"fechatransaccion",
-					" cuenta",
-					" tipoTransaccion",
-					" tipoCuenta"
-				],
-				"editMode": true,
-				"queryText": "SELECT"
-			}
 		],
 		"variables": [
 			{

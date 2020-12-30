@@ -1,5 +1,5 @@
 /*
- * Archivo: CuentaQuery_Q_CUENTAAT_QZ46.java
+ * Archivo: TransaccionesQuery_Q_TRANIEIC_BZ84.java
  *
  * Esta aplicacion es parte de los paquetes bancarios propiedad de COBISCORP.
  * Su uso no autorizado queda expresamente prohibido asi como cualquier
@@ -28,24 +28,22 @@ import com.cobiscorp.designer.api.managers.DesignerManagerException;
 @Component
 @Service({ IExecuteQuery.class })
 @Properties(value={
-		@Property(name = "query.id", value = "Q_CUENTAAT_QZ46"),
+		@Property(name = "query.id", value = "Q_TRANIEIC_BZ84"),
 		@Property(name = "query.version", value = "1.0.0")})
 
-public class CuentaQuery_Q_CUENTAAT_QZ46 implements IExecuteQuery {
+public class TransaccionesQuery_Q_TRANIEIC_BZ84 implements IExecuteQuery {
 	/**
 	 * Instancia de Logger
 	 */
-	private static final ILogger logger = LogFactory.getLogger(CuentaQuery_Q_CUENTAAT_QZ46.class);
+	private static final ILogger logger = LogFactory.getLogger(TransaccionesQuery_Q_TRANIEIC_BZ84.class);
 
 	@Override
 	public List<?> executeDataEvent(DynamicRequest arg0, IExecuteQueryEventArgs arg1) {
 		// TODO Auto-generated method stub
 		try {
 			if (logger.isDebugEnabled()) {
-				logger.logDebug("Start executeDataEvent in CuentaQuery_Q_CUENTAAT_QZ46");
+				logger.logDebug("Start executeDataEvent in TransaccionesQuery_Q_TRANIEIC_BZ84");
 			}
-            if (arg0.getEntityList("Cuenta") != null)
-                return arg0.getEntityList("Cuenta").getDataList();
 		} catch (Exception ex) {
 			DesignerManagerException.handleException(arg1.getMessageManager(), ex, logger);
 		}

@@ -10,6 +10,10 @@
 			"labels": [
 			]
 		},
+		"EN_CUENTAOGE_231": {
+			"labels": [
+			]
+		},
 		"EN_CUENTARZM_852": {
 			"labels": [
 			]
@@ -79,6 +83,9 @@
 		},
 		"T_CNTASIQOTREKI_837": {
 			"blis": [
+				"BLI3604_bli_sp_operacion_tranferencia",
+				"BLI8023_bli_consulta_cuentadestino",
+				"BLI8407_bli_consulta_cuenta"
 			],
 			"entities": {
 				"EN_CUENTADTN_360": [
@@ -89,17 +96,18 @@
 					"AT91_NUMERONT360",
 					"AT93_NOMBRETE360"
 				],
-				"EN_CUENTARZM_852": [
-					"AT64_SALDOZTR852",
-					"AT67_TIPOCUET852",
-					"AT68_CEDULAEL852",
-					"AT73_NOMBRENN852",
-					"AT75_NUMEROCN852",
-					"AT93_APELLIDE852"
+				"EN_CUENTAOGE_231": [
+					"AT21_APELLINC231",
+					"AT30_SALDONZA231",
+					"AT43_NOMBREIE231",
+					"AT69_CEDULATE231",
+					"AT73_TIPOCUAN231",
+					"AT75_NUMEROEN231"
 				],
 				"EN_DEPORETII_613": [
 					"AT29_CUENTAOT613",
-					"AT67_NUMEROEA613"
+					"AT67_NUMEROEA613",
+					"AT83_SALDOHJI613"
 				]
 			},
 			"externalEntities": {
@@ -109,37 +117,49 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_CNTAS_CANTIDART_11427",
 				"LBL_CNTAS_CUENTADOT_52317",
-				"LBL_CNTAS_CUENTAOEE_37869"
+				"LBL_CNTAS_CUENTAOEE_37869",
+				"LBL_CNTAS_TRANSFERR_17630"
 			],
 			"queries": {
 				"Q_CUENETNT_QR74": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
 					"QM_CUENEQTRN4461_05",
 					"QM_CUENEQTTRR624_02",
 					"QM_CUENERTRRT349_01",
 					"QM_CUENETR44T885_03",
 					"QM_CUENETT4TT658_04",
 					"QM_CUENETTQQT573_06",
-					"QM_CUENT6TA4T502_01",
-					"QM_CUENTAA4AT507_05",
-					"QM_CUENTAA64A176_04",
-					"QM_CUENTTZQQT279_06",
-					"QM_CUENTZAZQT267_03",
-					"QM_CUENTZQT4Q823_02"
+					"QM_CUENR11AA1822_05",
+					"QM_CUENR1GG99502_03",
+					"QM_CUENR1GS99936_06",
+					"QM_CUENR9E1G9794_04",
+					"QM_CUENR9SSSG806_02",
+					"QM_CUENREAS1G316_01"
 				],
-				"Q_CUENTAAT_QZ46": [
+				"Q_CUENREAG_AS19": [
+					"",
+					"",
+					"",
+					"",
 					"QM_CUENEQTRN4461_05",
 					"QM_CUENEQTTRR624_02",
 					"QM_CUENERTRRT349_01",
 					"QM_CUENETR44T885_03",
 					"QM_CUENETT4TT658_04",
 					"QM_CUENETTQQT573_06",
-					"QM_CUENT6TA4T502_01",
-					"QM_CUENTAA4AT507_05",
-					"QM_CUENTAA64A176_04",
-					"QM_CUENTTZQQT279_06",
-					"QM_CUENTZAZQT267_03",
-					"QM_CUENTZQT4Q823_02"
+					"QM_CUENR11AA1822_05",
+					"QM_CUENR1GG99502_03",
+					"QM_CUENR1GS99936_06",
+					"QM_CUENR9E1G9794_04",
+					"QM_CUENR9SSSG806_02",
+					"QM_CUENREAS1G316_01"
 				]
 			},
 			"subForms": [
@@ -293,6 +313,10 @@
 			]
 		},
 		"Q_CUENETNT_QR74": {
+			"labels": [
+			]
+		},
+		"Q_CUENREAG_AS19": {
 			"labels": [
 			]
 		},

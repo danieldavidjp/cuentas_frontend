@@ -1,6 +1,20 @@
 [
 	{
 		"attributeName": "",
+		"controlId": "CM_TCNTASIQ_NRK",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "",
+		"eventsType": "commandEventType"
+	},
+	{
+		"attributeName": "",
 		"controlId": "Q_CUENETNT_QR74",
 		"controlName": "CuentaDestinoQuery",
 		"controlType": "Query",
@@ -17,18 +31,32 @@
 	},
 	{
 		"attributeName": "",
-		"controlId": "Q_CUENTAAT_QZ46",
-		"controlName": "CuentaQuery",
+		"controlId": "Q_CUENREAG_AS19",
+		"controlName": "CuentaOrigenQuery",
 		"controlType": "Query",
 		"customEvents": [
 			{
 				"eventName": "executeQuery",
 				"executionType": {
-					"$ref": "../../../../../CNTAS/ADMIN/queries/Q_CUENTAAT_QZ46.json#/customEvents"
+					"$ref": "../../../../../CNTAS/ADMIN/queries/Q_CUENREAG_AS19.json#/customEvents"
 				}
 			}
 		],
-		"entityName": "Cuenta",
+		"entityName": "CuentaOrigen",
 		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_TRANSFERNI_536837",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "render",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]
