@@ -17,6 +17,15 @@
         <property name="query.version" type="String" value="1.0.0" private="false"/>
         <property name="service.pid" value="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.CuentaDestinoQuery_Q_CUENETNT_QR74" private="false"/>
     </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.CuentaOrigenQuery_Q_CUENREAG_AS19">
+        <implementation class="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.CuentaOrigenQuery_Q_CUENREAG_AS19"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteQuery"/>
+        </service>
+        <property name="query.id" type="String" value="Q_CUENREAG_AS19" private="false"/>
+        <property name="query.version" type="String" value="1.0.0" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.CuentaOrigenQuery_Q_CUENREAG_AS19" private="false"/>
+    </scr:component>
     <scr:component enabled="true" name="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.CuentaQuery_Q_CUENTAAT_QZ46">
         <implementation class="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.CuentaQuery_Q_CUENTAAT_QZ46"/>
         <service servicefactory="false">
@@ -25,5 +34,14 @@
         <property name="query.id" type="String" value="Q_CUENTAAT_QZ46" private="false"/>
         <property name="query.version" type="String" value="1.0.0" private="false"/>
         <property name="service.pid" value="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.CuentaQuery_Q_CUENTAAT_QZ46" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.TransaccionesQuery_Q_TRANIEIC_BZ84">
+        <implementation class="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.TransaccionesQuery_Q_TRANIEIC_BZ84"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteQuery"/>
+        </service>
+        <property name="query.id" type="String" value="Q_TRANIEIC_BZ84" private="false"/>
+        <property name="query.version" type="String" value="1.0.0" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.cntas.customevents.impl.query.executequery.TransaccionesQuery_Q_TRANIEIC_BZ84" private="false"/>
     </scr:component>
 </components>

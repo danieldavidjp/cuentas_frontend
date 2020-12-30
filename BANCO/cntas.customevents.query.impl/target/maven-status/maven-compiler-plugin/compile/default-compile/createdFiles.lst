@@ -1,3 +1,5 @@
 com\cobiscorp\cobis\cntas\customevents\impl\query\executequery\ClienteQuery_Q_CLIETNNT_ZN50.class
+com\cobiscorp\cobis\cntas\customevents\impl\query\executequery\TransaccionesQuery_Q_TRANIEIC_BZ84.class
+com\cobiscorp\cobis\cntas\customevents\impl\query\executequery\CuentaOrigenQuery_Q_CUENREAG_AS19.class
 com\cobiscorp\cobis\cntas\customevents\impl\query\executequery\CuentaQuery_Q_CUENTAAT_QZ46.class
 com\cobiscorp\cobis\cntas\customevents\impl\query\executequery\CuentaDestinoQuery_Q_CUENETNT_QR74.class

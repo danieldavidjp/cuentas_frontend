@@ -44,6 +44,8 @@ public class TransaccionesQuery_Q_TRANIEIC_BZ84 implements IExecuteQuery {
 			if (logger.isDebugEnabled()) {
 				logger.logDebug("Start executeDataEvent in TransaccionesQuery_Q_TRANIEIC_BZ84");
 			}
+			if (arg0.getEntityList("Transacciones") != null)
+                return arg0.getEntityList("Transacciones").getDataList();
 		} catch (Exception ex) {
 			DesignerManagerException.handleException(arg1.getMessageManager(), ex, logger);
 		}

@@ -72,6 +72,23 @@
 			"entities": {
 				"inputEntity": [
 					{
+						"entityId": "EN_CUENTARZM_852",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI7474_bli_insertar_cuenta_ahorros",
+			"nameBli": "BLI_insertar_cuenta_ahorros"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
 						"entityId": "EN_DEPORETII_613",
 						"moduleId": "CNTAS",
 						"related": false
@@ -101,40 +118,6 @@
 			},
 			"idBli": "BLI7871_blis_sp_operaciones_consulta",
 			"nameBli": "BLIS_sp_operaciones_consulta"
-		},
-		{
-			"entities": {
-				"inputEntity": [
-					{
-						"entityId": "EN_CUENTARZM_852",
-						"moduleId": "CNTAS",
-						"related": false
-					}
-				],
-				"outputEntity": [
-				],
-				"returnEntity": [
-				]
-			},
-			"idBli": "BLI7474_bli_insertar_cuenta_ahorros",
-			"nameBli": "BLI_insertar_cuenta_ahorros"
-		},
-		{
-			"entities": {
-				"inputEntity": [
-					{
-						"entityId": "EN_CUENTARZM_852",
-						"moduleId": "CNTAS",
-						"related": false
-					}
-				],
-				"outputEntity": [
-				],
-				"returnEntity": [
-				]
-			},
-			"idBli": "BLI8882_bli_insertar_cuenta_corriente",
-			"nameBli": "BLI_insertar_cuenta_corriente"
 		},
 		{
 			"entities": {
@@ -169,6 +152,23 @@
 			},
 			"idBli": "BLI8407_bli_consulta_cuenta",
 			"nameBli": "BLI_consulta_cuenta"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CUENTARZM_852",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI8882_bli_insertar_cuenta_corriente",
+			"nameBli": "BLI_insertar_cuenta_corriente"
 		}
 	]
 }

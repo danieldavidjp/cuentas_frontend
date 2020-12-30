@@ -47,7 +47,7 @@
 	"patternType": "Bli",
 	"queries": [
 		{
-			"_idQuery": "45491e8a-5f9a-401c-b21f-92e4feca5535",
+			"_idQuery": "1b1ccb94-4abd-4722-bf21-1a13c23a645e",
 			"isMapReturn": true,
 			"isReturn": true,
 			"isSingleResult": false,
@@ -57,53 +57,53 @@
 	],
 	"resultSets": [
 		{
-			"_idQuery": "45491e8a-5f9a-401c-b21f-92e4feca5535",
+			"_idQuery": "1b1ccb94-4abd-4722-bf21-1a13c23a645e",
 			"columns": [
 				{
-					"attributeId": "AT91_NUMERONT360",
+					"attributeId": "AT73_CEDULAIC360",
 					"entityId": "EN_CUENTADTN_360",
 					"format": "",
-					"name": "numeroCuenta",
+					"name": "cedula",
 					"position": 1,
-					"type": "ATTRIBUTE"
-				},
-				{
-					"attributeId": "AT64_APELLIII360",
-					"entityId": "EN_CUENTADTN_360",
-					"format": "",
-					"name": " apellidoCliente",
-					"position": 2,
 					"type": "ATTRIBUTE"
 				},
 				{
 					"attributeId": "AT93_NOMBRETE360",
 					"entityId": "EN_CUENTADTN_360",
 					"format": "",
-					"name": " nombreCliente",
+					"name": "nombreCliente",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT64_APELLIII360",
+					"entityId": "EN_CUENTADTN_360",
+					"format": "",
+					"name": "apellidoCliente",
 					"position": 3,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT77_TIPOCUEA360",
+					"attributeId": "AT91_NUMERONT360",
 					"entityId": "EN_CUENTADTN_360",
 					"format": "",
-					"name": " tipoCuenta",
+					"name": "numeroCuenta",
 					"position": 4,
-					"type": "ATTRIBUTE"
-				},
-				{
-					"attributeId": "AT73_CEDULAIC360",
-					"entityId": "EN_CUENTADTN_360",
-					"format": "",
-					"name": " cedula",
-					"position": 5,
 					"type": "ATTRIBUTE"
 				},
 				{
 					"attributeId": "AT86_SALDORQA360",
 					"entityId": "EN_CUENTADTN_360",
 					"format": "",
-					"name": " saldo",
+					"name": "saldo",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT77_TIPOCUEA360",
+					"entityId": "EN_CUENTADTN_360",
+					"format": "",
+					"name": "tipoCuenta",
 					"position": 6,
 					"type": "ATTRIBUTE"
 				}

@@ -168,7 +168,7 @@
 		"T_CNTASPIVDVWDH_706": {
 			"blis": [
 				"BLI7762_bli_sp_operaciones_deposito",
-				"BLI7871_blis_sp_operaciones_consulta"
+				"BLI8023_bli_consulta_cuentadestino"
 			],
 			"entities": {
 				"EN_CUENTADTN_360": [
@@ -262,7 +262,7 @@
 		"T_CNTASYADRIJAP_499": {
 			"blis": [
 				"BLI1335_bli_sp_operaciones_retiro",
-				"BLI7871_blis_sp_operaciones_consulta"
+				"BLI8023_bli_consulta_cuentadestino"
 			],
 			"entities": {
 				"EN_CUENTADTN_360": [
