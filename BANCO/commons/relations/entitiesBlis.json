@@ -62,6 +62,11 @@
 						"entityId": "EN_CUENTADTN_360",
 						"moduleId": "CNTAS",
 						"related": false
+					},
+					{
+						"entityId": "EN_CUENTARZM_852",
+						"moduleId": "CNTAS",
+						"related": false
 					}
 				]
 			},

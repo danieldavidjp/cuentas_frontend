@@ -47,6 +47,14 @@
 	"patternType": "Bli",
 	"queries": [
 		{
+			"_idQuery": "45491e8a-5f9a-401c-b21f-92e4feca5535",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 3,
+			"queryName": "SELECT"
+		},
+		{
 			"_idQuery": "f2f8db6d-29f2-4045-9c84-9c075a9708f0",
 			"isMapReturn": true,
 			"isReturn": true,
@@ -56,6 +64,61 @@
 		}
 	],
 	"resultSets": [
+		{
+			"_idQuery": "45491e8a-5f9a-401c-b21f-92e4feca5535",
+			"columns": [
+				{
+					"attributeId": "AT75_NUMEROCN852",
+					"entityId": "EN_CUENTARZM_852",
+					"format": "",
+					"name": "numeroCuenta",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT93_APELLIDE852",
+					"entityId": "EN_CUENTARZM_852",
+					"format": "",
+					"name": " apellidoCliente",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT73_NOMBRENN852",
+					"entityId": "EN_CUENTARZM_852",
+					"format": "",
+					"name": " nombreCliente",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT67_TIPOCUET852",
+					"entityId": "EN_CUENTARZM_852",
+					"format": "",
+					"name": " tipoCuenta",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT68_CEDULAEL852",
+					"entityId": "EN_CUENTARZM_852",
+					"format": "",
+					"name": " cedula",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT64_SALDOZTR852",
+					"entityId": "EN_CUENTARZM_852",
+					"format": "",
+					"name": " saldo",
+					"position": 6,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		},
 		{
 			"_idQuery": "f2f8db6d-29f2-4045-9c84-9c075a9708f0",
 			"columns": [
@@ -108,7 +171,7 @@
 					"type": "ATTRIBUTE"
 				}
 			],
-			"number": 1,
+			"number": 2,
 			"singleResult": false
 		}
 	],
@@ -120,6 +183,14 @@
 				"moduleName": "CUENTAS"
 			},
 			"name": "CuentaDestino"
+		},
+		{
+			"entityId": "EN_CUENTARZM_852",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "CUENTAS"
+			},
+			"name": "Cuenta"
 		}
 	],
 	"serverName": "CENTRAL",
