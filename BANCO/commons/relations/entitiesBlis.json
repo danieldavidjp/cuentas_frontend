@@ -31,6 +31,23 @@
 				"returnEntity": [
 				]
 			},
+			"idBli": "BLI7474_bli_insertar_cuenta_ahorros",
+			"nameBli": "BLI_insertar_cuenta_ahorros"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CUENTARZM_852",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
 			"idBli": "BLI8882_bli_insertar_cuenta_corriente",
 			"nameBli": "BLI_insertar_cuenta_corriente"
 		}

@@ -27,6 +27,7 @@
 		"T_CNTASADQLTLAP_450": {
 			"blis": [
 				"BLI5772_bli_buscar_cliente",
+				"BLI7474_bli_insertar_cuenta_ahorros",
 				"BLI8882_bli_insertar_cuenta_corriente"
 			],
 			"entities": {

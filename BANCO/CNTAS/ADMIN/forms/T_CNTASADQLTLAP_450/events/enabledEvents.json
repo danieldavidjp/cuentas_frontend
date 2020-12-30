@@ -51,7 +51,7 @@
 		"customEvents": [
 			{
 				"eventName": "executeCommand",
-				"executionType": 1
+				"executionType": 7
 			}
 		],
 		"entityName": "Cuenta",

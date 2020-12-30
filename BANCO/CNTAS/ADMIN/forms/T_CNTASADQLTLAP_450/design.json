@@ -247,7 +247,8 @@
 												"actionArgs": [
 												],
 												"actionId": "BLI8882_bli_insertar_cuenta_corriente",
-												"actionType": "BLI"
+												"actionType": "BLI",
+												"controlId": "VA_VABUTTONFVRNBCU_239241"
 											}
 										],
 										"executionType": 7,
@@ -309,8 +310,20 @@
 										"customizationLayerDescription": "ECU",
 										"enabled": "T",
 										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											},
+											{
+												"actionArgs": [
+												],
+												"actionId": "BLI7474_bli_insertar_cuenta_ahorros",
+												"actionType": "BLI"
+											}
 										],
-										"executionType": 1,
+										"executionType": 7,
 										"filter": null,
 										"isEnabled": true,
 										"visualAttributeEventType": {
