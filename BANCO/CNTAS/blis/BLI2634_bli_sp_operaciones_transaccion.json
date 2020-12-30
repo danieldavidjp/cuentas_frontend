@@ -1,0 +1,121 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_cuenta",
+			"type": "CUSTOM",
+			"value": "cuenta"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "M"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "25190"
+		}
+	],
+	"name": "BLI_sp_operaciones_transaccion",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI2634_bli_sp_operaciones_transaccion",
+	"patternName": "BLI_sp_operaciones_transaccion",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "36302b48-6393-4205-8779-9cb87c2b8622",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 5,
+			"queryName": "SELECT"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "36302b48-6393-4205-8779-9cb87c2b8622",
+			"columns": [
+				{
+					"attributeId": "AT72_IDTRANIN514",
+					"entityId": "EN_TRANSACSI_514",
+					"format": "",
+					"name": "idtransaccion",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT90_FECHATOA514",
+					"entityId": "EN_TRANSACSI_514",
+					"format": "",
+					"name": "fechatransaccion",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT81_NUMEROAA514",
+					"entityId": "EN_TRANSACSI_514",
+					"format": "",
+					"name": " cuenta",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT56_TIPOTRAC514",
+					"entityId": "EN_TRANSACSI_514",
+					"format": "",
+					"name": " tipoTransaccion",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT45_TIPOCUNE514",
+					"entityId": "EN_TRANSACSI_514",
+					"format": "",
+					"name": " tipoCuenta",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_TRANSACSI_514",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "CUENTAS"
+			},
+			"name": "Transacciones"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g1_sp_operaciones",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

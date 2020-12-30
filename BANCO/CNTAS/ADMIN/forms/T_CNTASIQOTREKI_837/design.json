@@ -28,6 +28,12 @@
 							],
 							"actionId": "CUSTOM",
 							"actionType": "CUSTOM"
+						},
+						{
+							"actionArgs": [
+							],
+							"actionId": "BLI3604_bli_sp_operacion_tranferencia",
+							"actionType": "BLI"
 						}
 					],
 					"executionType": 7,
@@ -129,6 +135,78 @@
 			"style": null,
 			"view": {
 				"groups": [
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 3,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../CNTAS/entities/EN_DEPORETII_613.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_TRANSFEACE_551502",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group1960",
+						"order": 5,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../CNTAS/entities/EN_DEPORETII_613.json#/attributes/AT83_SALDOHJI613"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_CANTIDART_11427"
+									},
+									"labelId": "LBL_CNTAS_CANTIDART_11427",
+									"moduleId": "CNTAS"
+								},
+								"maxRecords": null,
+								"name": "saldo",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_SALDOHUSBJITCZB_108502",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					},
 					{
 						"collapsedStr": "F",
 						"colSpan": 1,

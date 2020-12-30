@@ -29,22 +29,14 @@
 				"dataType": "int",
 				"direction": "in",
 				"name": "@t_trn"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_tipoCuenta"
 			}
 		],
 		"queries": [
-			{
-				"_idQuery": "35b3c5f5-6884-4283-b39e-11eb4c4eee5b",
-				"columns": [
-					"cedula",
-					"nombreCliente",
-					"apellidoCliente",
-					"numeroCuenta",
-					"saldo",
-					"tipoCuenta"
-				],
-				"editMode": false,
-				"queryText": "SELECT"
-			}
 		],
 		"variables": [
 			{

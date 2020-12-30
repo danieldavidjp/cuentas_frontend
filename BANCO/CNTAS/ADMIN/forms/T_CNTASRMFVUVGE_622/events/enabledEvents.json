@@ -1,2 +1,18 @@
 [
+	{
+		"attributeName": "",
+		"controlId": "Q_TRANIEIC_BZ84",
+		"controlName": "TransaccionesQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../CNTAS/ADMIN/queries/Q_TRANIEIC_BZ84.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Transacciones",
+		"eventsType": "queryEventType"
+	}
 ]

@@ -26,5 +26,12 @@
 				"$ref": "../ADMIN/queries/Q_CUENTAAT_QZ46.json#"
 			}
 		}
+	},
+	"EN_TRANSACSI_514": {
+		"queries": {
+			"Q_TRANIEIC_BZ84": {
+				"$ref": "../ADMIN/queries/Q_TRANIEIC_BZ84.json#"
+			}
+		}
 	}
 }

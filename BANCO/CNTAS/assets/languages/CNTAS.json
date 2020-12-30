@@ -1,19 +1,27 @@
 {
 	"CNTAS": {
 		"LBL": {
+			"LBL_CNTAS_BUSCARUKH_68596": "Buscar",
+			"LBL_CNTAS_CANTIDART_11427": "Cantidad a Transferir",
 			"LBL_CNTAS_CEDULAIKX_40864": "Cedula",
 			"LBL_CNTAS_CEDULAWXJ_29913": "Cedula",
 			"LBL_CNTAS_CREARCUAT_66871": "Crear Cuenta",
 			"LBL_CNTAS_CUENTADOT_52317": "Cuenta Destino",
 			"LBL_CNTAS_CUENTAOEE_37869": "Cuenta Origen",
 			"LBL_CNTAS_DEPOSITAA_17926": "Depositar",
+			"LBL_CNTAS_FECHATRIC_20048": "Fecha Transaccion",
+			"LBL_CNTAS_IDTRANSIN_21363": "Id Transaccion",
 			"LBL_CNTAS_MONTOLGQN_62191": "Monto",
 			"LBL_CNTAS_NUEVOSAOO_49940": "Nuevo Saldo",
 			"LBL_CNTAS_NUMEROCAU_30831": "Numero de Cuenta",
+			"LBL_CNTAS_NUMEROCUT_27120": "Numero Cuenta",
 			"LBL_CNTAS_RETIRARRV_18619": "Retirar",
 			"LBL_CNTAS_SALDOHQCE_23148": "Saldo",
 			"LBL_CNTAS_SALDOINIC_41095": "Saldo Inicial",
 			"LBL_CNTAS_TIPOCUETA_22304": "TIpo de cuenta",
+			"LBL_CNTAS_TIPOCUETA_59435": "Tipo de Cuenta",
+			"LBL_CNTAS_TIPOTRAIO_38063": "Tipo de Transaccion",
+			"LBL_CNTAS_TRANSACIS_83525": "Transacciones",
 			"LBL_CNTAS_TRANSFERR_17630": "transferir",
 			"LBL_CNTAS_VALORDWEW_99968": "Valor"
 		},

@@ -1,0 +1,88 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_DEPORETII_613",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "CUENTAS"
+			},
+			"name": "FiltroCuenta"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "AT67_NUMEROEA613",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_DEPORETII_613",
+			"format": "",
+			"name": "@i_cuenta",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT29_CUENTAOT613",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "EN_DEPORETII_613",
+			"format": "",
+			"name": "@i_cuentaD",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT83_SALDOHJI613",
+			"bddType": "float",
+			"dataType": "DOUBLE",
+			"direction": "in",
+			"entityId": "EN_DEPORETII_613",
+			"format": "",
+			"name": "@i_valor",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "T"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "25190"
+		}
+	],
+	"name": "BLI_sp_operacion_tranferencia",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI3604_bli_sp_operacion_tranferencia",
+	"patternName": "BLI_sp_operacion_tranferencia",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g1_sp_operaciones",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}
